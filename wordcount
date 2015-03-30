@@ -1,0 +1,146 @@
+File: document.tex
+Encoding: ascii
+Words in text: 14
+Words in headers: 2
+Words outside text (captions, etc.): 0
+Number of headers: 2
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: tex/appendix_01.tex
+Encoding: ascii
+Words in text: 247
+Words in headers: 9
+Words outside text (captions, etc.): 0
+Number of headers: 4
+Number of floats/tables/figures: 0
+Number of math inlines: 16
+Number of math displayed: 11
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+2+0 (1/0/0/0) Section: Schmidt Number
+  100+1+0 (1/0/12/5) Subsection: Definition
+  147+6+0 (2/0/4/6) Subsection: Calculation from experimental data
+
+File: tex/appendix_02.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 0
+Words outside text (captions, etc.): 0
+Number of headers: 0
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: tex/build
+Encoding: ascii
+Words in text: 0
+Words in headers: 0
+Words outside text (captions, etc.): 0
+Number of headers: 0
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: tex/conclusion.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 1
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: tex/discussion.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 1
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: tex/introduction.tex
+Encoding: ascii
+Words in text: 75
+Words in headers: 1
+Words outside text (captions, etc.): 0
+Number of headers: 1
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+
+File: tex/method.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 5
+Words outside text (captions, etc.): 0
+Number of headers: 5
+Number of floats/tables/figures: 0
+Number of math inlines: 1
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+1+0 (1/0/0/0) Section: Method
+  0+1+0 (1/0/0/0) Subsection: Coupling
+  0+1+0 (1/0/0/0) Subsection: Bistability
+  0+2+0 (1/0/0/0) Subsection: Joint Spectrum
+  0+0+0 (1/0/1/0) Subsection: $g^{(2)}(0)$
+
+File: tex/results.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 4
+Words outside text (captions, etc.): 0
+Number of headers: 4
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+1+0 (1/0/0/0) Section: Results
+  0+1+0 (1/0/0/0) Subsection: Glassgow
+  0+1+0 (1/0/0/0) Subsection: Toshiba
+  0+1+0 (1/0/0/0) Subsection: a-Si
+
+File: tex/theory.tex
+Encoding: ascii
+Words in text: 0
+Words in headers: 16
+Words outside text (captions, etc.): 0
+Number of headers: 6
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+1+0 (1/0/0/0) Section: Theory
+  0+5+0 (1/0/0/0) Subsection: On chip four wave mixing
+  0+2+0 (1/0/0/0) Subsection: Ring Resonators
+  0+1+0 (1/0/0/0) Subsection: Bistability
+  0+3+0 (1/0/0/0) Subsection: Self phase modulation
+  0+4+0 (1/0/0/0) Subsection: Schmidt Rank and Purity
+
+Total
+Words in text: 336
+Words in headers: 39
+Words outside text (captions, etc.): 0
+Number of headers: 24
+Number of floats/tables/figures: 0
+Number of math inlines: 17
+Number of math displayed: 11
+Files: 10
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  14+2+0 (2/0/0/0) File(s) total: document.tex
+  247+9+0 (4/0/16/11) File(s) total: tex/appendix_01.tex
+  0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
+  0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
+  75+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
+  0+5+0 (5/0/1/0) File(s) total: tex/method.tex
+  0+4+0 (4/0/0/0) File(s) total: tex/results.tex
+  0+16+0 (6/0/0/0) File(s) total: tex/theory.tex
+
