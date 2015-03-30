@@ -1,6 +1,9 @@
 \documentclass[11pt]{article}
+\usepackage{listings}
+\lstset{language=C} 
 %\documentclass[prb,11pt]{revtex4-1}
 \usepackage{multicol}
+\usepackage{array}% http://ctan.org/pkg/array
 \usepackage{shortvrb}
 \usepackage{url}
 \usepackage{graphicx}
@@ -26,33 +29,34 @@
 \begin{document}
 
 \begin{titlepage}
-\sffamily
-  \includegraphics[scale=0.7]{img/uob-logo.png}\hfill
-  \LARGE DEPARTMENT OF PHYSICS \\
+%\sffamily
+  \includegraphics[scale=0.6]{img/uob-logo.png}\hfill
+  \LARGE Department Of Physics \\
   \begin{center}
     FINAL YEAR PROJECT, DISSERTATION OR\\
     PHYSICS EDUCATION REPORT
   \end{center} 
 
   \large
-  \begin{tabular}[t]{|l|p{9cm}|}
+  {\renewcommand{\arraystretch}{2}%
+  \begin{tabular}[t]{|l|p{10cm}|}
     \hline
     NAME: & Luka Milic \\ \hline
     DEGREE COURSE: & Mathematics and Physics (MSci)\\ \hline
     PROJECT TITLE: & Entanglement of photons pairs generated in silicon ring resonators \\ \hline
     YEAR OF SUBMISSION: & 2015\\ \hline
     SUPERVISOR: & Damien Bonneau, Josh Silverstone and Mark Thompson\\ \hline
-    NUMBER OF WORDS: & 282 (exclude appendices, references, captions and abstract)\\ \hline
-  \end{tabular}
+    NUMBER OF WORDS: & 336 (exclude appendices, references, captions and abstract)\\ \hline
+  \end{tabular} } \quad
   \\[1.5cm]
   \begin{center}
-    \includegraphics[scale=1]{img/physics-building.jpg}
+    \includegraphics[scale=0.7]{img/nsqi.jpg}
   \end{center}
 \end{titlepage}
 \renewcommand{\abstractname}{Acknowledgements}
 \newpage
 \begin{abstract}
- Thanks Lizzy, Daminen, Josh, Mark, Raf, Imad, Phil, Mark. The NSQI, CQP Admin team.
+Thank you Damien and Josh for your invaluable help throughout my project. Lizzy for working with me in the lab. Imad for encouragement and guidance. Phil for your sarcasm. 
 \end{abstract}
 \newpage
 \tableofcontents
@@ -70,6 +74,7 @@
 \newpage
 \appendix 
 \input{tex/appendix_01.tex}
+\input{tex/appendix_02.tex}
 
 %\end{multicols}
 \end{document}
