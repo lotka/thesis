@@ -1,0 +1,83 @@
+\documentclass[11pt]{article}
+%\documentclass[prb,11pt]{revtex4-1}
+\usepackage{multicol}
+\usepackage{shortvrb}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{braket}
+%\usepackage[hypcap]{caption}
+\usepackage{capt-of}
+\usepackage{amsmath}
+\usepackage{mathdots}
+\usepackage{fullpage}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{cite}
+%\usepackage{hyperref}
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+\usepackage{siunitx}
+\usepackage{multicol}
+\usepackage{cite}
+\DeclareMathOperator{\Tr}{Tr}
+%Gummi|061|=)
+
+\title{Thesis}
+\date{\today}
+\author{Luka Milic}
+\begin{document}
+
+\begin{titlepage}
+\sffamily
+  \includegraphics[scale=0.7]{img/uob-logo.png}\hfill
+  \LARGE DEPARTMENT OF PHYSICS \\
+  \begin{center}
+    FINAL YEAR PROJECT, DISSERTATION OR\\
+    PHYSICS EDUCATION REPORT
+  \end{center} 
+
+  \large
+  \begin{tabular}[t]{|l|p{9cm}|}
+    \hline
+    NAME: & Luka Milic \\ \hline
+    DEGREE COURSE: & Mathematics and Physics (MSci)\\ \hline
+    PROJECT TITLE: & Entanglement of photons pairs generated in silicon ring resonators \\ \hline
+    YEAR OF SUBMISSION: & 2015\\ \hline
+    SUPERVISOR: & Damien Bonneau, Josh Silverstone and Mark Thompson\\ \hline
+    NUMBER OF WORDS: & 282 (exclude appendices, references, captions and abstract)\\ \hline
+  \end{tabular}
+  \\[1.5cm]
+  \begin{center}
+    \includegraphics[scale=1]{img/physics-building.jpg}
+  \end{center}
+\end{titlepage}
+\renewcommand{\abstractname}{Acknowledgements}
+\newpage
+\begin{abstract}
+ Thanks Lizzy, Daminen, Josh, Mark, Raf, Imad, Phil, Mark. The NSQI, CQP Admin team.
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+\input{tex/introduction.tex}
+\input{tex/theory.tex}
+\section{Method}
+\subsection{Coupling}
+\subsection{Bistability}
+\subsection{Joint Spectrum}
+\subsection{$g^{(2)}(0)$}
+\section{Results}
+\subsection{Glassgow}
+\subsection{Toshiba}
+\subsection{a-Si}
+\section{Discussion}
+\section{Conclusion}
+%\section{Lit Plan}
+%READ THIS: \cite{jalali_silicon_2006}
+%\bibliographystyle{unsrt}
+\bibliographystyle{unsrt}
+\bibliography{bibfile}
+\newpage
+\appendix 
+\input{tex/appendix_01.tex}
+
+%\end{multicols}
+\end{document}
