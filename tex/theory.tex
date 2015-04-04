@@ -2,10 +2,37 @@
 \section{Detailed Background and Theory}
 \subsection{Integrated silicon photonics}
 Integrated silicon photonics is a promising new platform on which to conduct quantum information experiments. 
-\subsection{On chip four wave mixing}
-Want to talk about some hamiltonians.
+\subsection{Marco Liscid - Why its okay to use classical to probe quantum and an introduction to four wavemixing}
+Marco \cite{helt_how_2012}
+%Want to talk about some hamiltonians.
 \subsection{Ring Resonators}
-Ring resonators are used as single photon sources. However to understand their behaviour to first order no quantum mechanics is needed. 
+Ring resonators are used as single photon sources. However to understand their behaviour to first order no quantum mechanics is needed. Here are the 3 governing equations:
+%Need to talk about how ring resonators shape this stuff
+
+\begingroup
+    \centering  
+    \includegraphics[width=18cm]{img/theory/coupling.pdf}
+    \captionof{figure}{Notice how similar under and over coupling are to each other}
+     \vspace{3pt} \label{crossCompare}
+\endgroup
+
+\begingroup
+\centering
+    \includegraphics[width=5cm]{img/theory/ring.pdf}
+\captionof{figure}{ahhh}
+\endgroup
+\begin{equation}
+\left |\frac{E_{out}}{E_{0}}\right|^2=\frac{r^2-2r\tau\cos(\theta)+\tau^2}{1+r^2\tau^2-2r\tau cos(\theta)}
+\end{equation}
+\begin{equation}
+\left|\frac{E_{1}}{E_{0}}\right |^2=\frac{t^2}{1+r^2\tau^2-2r\tau cos(\theta)}
+\end{equation}
+\begin{equation}
+\left |\frac{E_{2}}{E_{0}}\right |^2=\tau^2\left|\frac{E_{1}}{E_{0}}\right |^2
+\end{equation}
+
 \subsection{Bistability}
+%The bistability effect is based on the carrier gen-eration induced by two-photon absorption
+It can be experimentally observed that injecting power into a ring resonator will cause changes in the spectral position and shape of the resonance. Typically in silicon ring resonators the more power in the ring the more the resonance position is red-shifted by the thermo-optic effect\cite{almeida_optical_2004-1}. Other effects are two photon absoprtion (TPA) and free carrier generation, these cause a blue shift \cite{xu_carrier-induced_2006}.
 \subsection{Self phase modulation}
 \subsection{Schmidt Rank and Purity}
