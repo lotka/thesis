@@ -1,44 +1,9 @@
 File: document.tex
 Encoding: ascii
-Words in text: 14
-Words in headers: 2
+Words in text: 43
+Words in headers: 10
 Words outside text (captions, etc.): 0
 Number of headers: 2
-Number of floats/tables/figures: 0
-Number of math inlines: 0
-Number of math displayed: 0
-
-File: tex/appendix_01.tex
-Encoding: ascii
-Words in text: 247
-Words in headers: 9
-Words outside text (captions, etc.): 0
-Number of headers: 4
-Number of floats/tables/figures: 0
-Number of math inlines: 16
-Number of math displayed: 11
-Subcounts:
-  text+headers+captions (#headers/#floats/#inlines/#displayed)
-  0+2+0 (1/0/0/0) Section: Schmidt Number
-  100+1+0 (1/0/12/5) Subsection: Definition
-  147+6+0 (2/0/4/6) Subsection: Calculation from experimental data
-
-File: tex/appendix_02.tex
-Encoding: ascii
-Words in text: 0
-Words in headers: 0
-Words outside text (captions, etc.): 0
-Number of headers: 0
-Number of floats/tables/figures: 0
-Number of math inlines: 0
-Number of math displayed: 0
-
-File: tex/build
-Encoding: ascii
-Words in text: 0
-Words in headers: 0
-Words outside text (captions, etc.): 0
-Number of headers: 0
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
@@ -65,7 +30,7 @@ Number of math displayed: 0
 
 File: tex/introduction.tex
 Encoding: ascii
-Words in text: 75
+Words in text: 248
 Words in headers: 1
 Words outside text (captions, etc.): 0
 Number of headers: 1
@@ -75,8 +40,8 @@ Number of math displayed: 0
 
 File: tex/method.tex
 Encoding: ascii
-Words in text: 0
-Words in headers: 5
+Words in text: 8
+Words in headers: 6
 Words outside text (captions, etc.): 0
 Number of headers: 5
 Number of floats/tables/figures: 0
@@ -85,8 +50,8 @@ Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+1+0 (1/0/0/0) Section: Method
-  0+1+0 (1/0/0/0) Subsection: Coupling
-  0+1+0 (1/0/0/0) Subsection: Bistability
+  0+2+0 (1/0/0/0) Subsection: Silicon Chips
+  8+1+0 (1/0/0/0) Subsection: Coupling
   0+2+0 (1/0/0/0) Subsection: Joint Spectrum
   0+0+0 (1/0/1/0) Subsection: $g^{(2)}(0)$
 
@@ -108,39 +73,39 @@ Subcounts:
 
 File: tex/theory.tex
 Encoding: ascii
-Words in text: 0
-Words in headers: 16
+Words in text: 42
+Words in headers: 22
 Words outside text (captions, etc.): 0
-Number of headers: 6
+Number of headers: 7
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  0+1+0 (1/0/0/0) Section: Theory
-  0+5+0 (1/0/0/0) Subsection: On chip four wave mixing
-  0+2+0 (1/0/0/0) Subsection: Ring Resonators
+  0+4+0 (1/0/0/0) Section: Detailed Background and Theory
+  15+3+0 (1/0/0/0) Subsection: Integrated silicon photonics
+  6+5+0 (1/0/0/0) Subsection: On chip four wave mixing
+  21+2+0 (1/0/0/0) Subsection: Ring Resonators
   0+1+0 (1/0/0/0) Subsection: Bistability
   0+3+0 (1/0/0/0) Subsection: Self phase modulation
   0+4+0 (1/0/0/0) Subsection: Schmidt Rank and Purity
 
 Total
-Words in text: 336
-Words in headers: 39
+Words in text: 341
+Words in headers: 45
 Words outside text (captions, etc.): 0
-Number of headers: 24
+Number of headers: 21
 Number of floats/tables/figures: 0
-Number of math inlines: 17
-Number of math displayed: 11
-Files: 10
+Number of math inlines: 1
+Number of math displayed: 0
+Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  14+2+0 (2/0/0/0) File(s) total: document.tex
-  247+9+0 (4/0/16/11) File(s) total: tex/appendix_01.tex
+  43+10+0 (2/0/0/0) File(s) total: document.tex
   0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
   0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
-  75+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
-  0+5+0 (5/0/1/0) File(s) total: tex/method.tex
+  248+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
+  8+6+0 (5/0/1/0) File(s) total: tex/method.tex
   0+4+0 (4/0/0/0) File(s) total: tex/results.tex
-  0+16+0 (6/0/0/0) File(s) total: tex/theory.tex
+  42+22+0 (7/0/0/0) File(s) total: tex/theory.tex
 

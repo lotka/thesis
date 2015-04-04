@@ -1,6 +1,22 @@
 \documentclass[11pt]{article}
 \usepackage{listings}
-\lstset{language=C} 
+\usepackage{xcolor}
+\lstset{
+  %frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  tabsize=3
+}
+
 %\documentclass[prb,11pt]{revtex4-1}
 \usepackage{multicol}
 \usepackage{array}% http://ctan.org/pkg/array
@@ -46,7 +62,7 @@
     PROJECT TITLE: & Entanglement of photons pairs generated in silicon ring resonators \\ \hline
     YEAR OF SUBMISSION: & 2015\\ \hline
     SUPERVISOR: & Damien Bonneau, Josh Silverstone and Mark Thompson\\ \hline
-    NUMBER OF WORDS: & 336 (exclude appendices, references, captions and abstract)\\ \hline
+    NUMBER OF WORDS: & 341 (exclude appendices, references, captions and abstract)\\ \hline
   \end{tabular} } \quad
   \\[1.5cm]
   \begin{center}
