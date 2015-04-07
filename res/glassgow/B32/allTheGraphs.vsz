@@ -1,0 +1,15 @@
+# Veusz saved document (version 1.22)
+# Saved at 2015-04-07T13:58:35.907984
+
+AddImportPath(u'/home/luka/Dropbox/cqp/report/thesis/res/glassgow/B32')
+Add('page', name='page1', autoadd=False)
+To('page1')
+Add('graph', name='graph1', autoadd=False)
+To('graph1')
+Add('axis', name='x', autoadd=False)
+Add('axis', name='y', autoadd=False)
+To('y')
+Set('direction', 'vertical')
+To('..')
+To('..')
+To('..')
