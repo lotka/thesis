@@ -1,0 +1,3 @@
+Seed wavelength range is 1.542400e+003-1.543400e+003 with a resolution of 5.000000e-003
+Osa wavelength range is 1.535000e+003-1.538000e+003 with 5.010000e+002 points
+Powers without seed laser are tap = 4.453552e-003 chip = 1.699332e-005
