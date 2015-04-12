@@ -30,7 +30,7 @@ Number of math displayed: 0
 
 File: tex/introduction.tex
 Encoding: ascii
-Words in text: 452
+Words in text: 469
 Words in headers: 1
 Words outside text (captions, etc.): 0
 Number of headers: 1
@@ -40,45 +40,47 @@ Number of math displayed: 0
 
 File: tex/method.tex
 Encoding: ascii
-Words in text: 0
-Words in headers: 6
+Words in text: 117
+Words in headers: 16
 Words outside text (captions, etc.): 0
-Number of headers: 5
+Number of headers: 10
 Number of floats/tables/figures: 0
 Number of math inlines: 1
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  0+1+0 (1/0/0/0) Section: Method
-  0+2+0 (1/0/0/0) Subsection: Silicon Chips
+  15+1+0 (1/0/0/0) Section: Method
+  15+5+0 (4/0/0/0) Subsection: Silicon Chips
   0+1+0 (1/0/0/0) Subsection: Coupling
-  0+2+0 (1/0/0/0) Subsection: Joint Spectrum
+  20+2+0 (1/0/0/0) Subsection: Joint Spectrum
+  67+5+0 (1/0/0/0) Subsection: What experiments can be done?
   0+0+0 (1/0/1/0) Subsection: $g^{(2)}(0)$
+  0+2+0 (1/0/0/0) Subsection: Analysing Data
 
 File: tex/results.tex
 Encoding: ascii
-Words in text: 15
+Words in text: 454
 Words in headers: 10
 Words outside text (captions, etc.): 0
 Number of headers: 7
 Number of floats/tables/figures: 0
-Number of math inlines: 0
+Number of math inlines: 13
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+1+0 (1/0/0/0) Section: Results
-  5+1+0 (1/0/0/0) Subsection: Glassgow
-  5+7+0 (4/0/0/0) Subsection: Toshiba
-  5+1+0 (1/0/0/0) Subsection: a-Si
+  454+1+0 (1/0/13/0) Subsection: Glassgow
+  0+7+0 (4/0/0/0) Subsection: Toshiba
+  0+1+0 (1/0/0/0) Subsection: a-Si
 
 File: tex/theory.tex
 Encoding: ascii
-Words in text: 119
+Words in text: 345
 Words in headers: 34
 Words outside text (captions, etc.): 0
 Number of headers: 7
 Number of floats/tables/figures: 0
-Number of math inlines: 0
+Number of math inlines: 3
 Number of math displayed: 3
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
@@ -86,17 +88,17 @@ Subcounts:
   15+3+0 (1/0/0/0) Subsection: Integrated silicon photonics
   1+17+0 (1/0/0/0) Subsection: Marco Liscid - Why its okay to use classical to probe quantum and an introduction to four wavemixing
   41+2+0 (1/0/0/3) Subsection: Ring Resonators
-  62+1+0 (1/0/0/0) Subsection: Bistability
+  288+1+0 (1/0/3/0) Subsection: Bistability
   0+3+0 (1/0/0/0) Subsection: Self phase modulation
   0+4+0 (1/0/0/0) Subsection: Schmidt Rank and Purity
 
 Total
-Words in text: 629
-Words in headers: 63
+Words in text: 1428
+Words in headers: 73
 Words outside text (captions, etc.): 0
-Number of headers: 24
+Number of headers: 29
 Number of floats/tables/figures: 0
-Number of math inlines: 1
+Number of math inlines: 17
 Number of math displayed: 3
 Files: 7
 Subcounts:
@@ -104,8 +106,8 @@ Subcounts:
   43+10+0 (2/0/0/0) File(s) total: document.tex
   0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
   0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
-  452+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
-  0+6+0 (5/0/1/0) File(s) total: tex/method.tex
-  15+10+0 (7/0/0/0) File(s) total: tex/results.tex
-  119+34+0 (7/0/0/3) File(s) total: tex/theory.tex
+  469+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
+  117+16+0 (10/0/1/0) File(s) total: tex/method.tex
+  454+10+0 (7/0/13/0) File(s) total: tex/results.tex
+  345+34+0 (7/0/3/3) File(s) total: tex/theory.tex
 
