@@ -1,5 +1,5 @@
 # Veusz saved document (version 1.22)
-# Saved at 2015-04-09T17:24:34.564022
+# Saved at 2015-04-12T10:51:30.282093
 
 AddImportPath(u'/home/luka/Dropbox/cqp/report/thesis/res/glassgow/C21')
 ImportFileCSV(u'Spec1540-1550_C21_dBm.csv', delimiter=' ', linked=True, numericlocale=u'en_GB', dsprefix=u'dbm1', rowsignore=28)
@@ -131,7 +131,7 @@ Set('yPos', [0.362])
 To('..')
 Add('label', name='label4', autoadd=False)
 To('label4')
-Set('label', u'L=175\u03bcm')
+Set('label', u'L=180\u03bcm')
 Set('xPos', [0.85])
 Set('yPos', [0.302])
 To('..')
