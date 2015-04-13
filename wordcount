@@ -1,9 +1,9 @@
 File: document.tex
 Encoding: ascii
-Words in text: 43
-Words in headers: 10
+Words in text: 47
+Words in headers: 11
 Words outside text (captions, etc.): 0
-Number of headers: 2
+Number of headers: 3
 Number of floats/tables/figures: 0
 Number of math inlines: 0
 Number of math displayed: 0
@@ -59,55 +59,56 @@ Subcounts:
 
 File: tex/results.tex
 Encoding: ascii
-Words in text: 508
+Words in text: 808
 Words in headers: 10
 Words outside text (captions, etc.): 0
 Number of headers: 7
 Number of floats/tables/figures: 0
-Number of math inlines: 15
+Number of math inlines: 17
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+1+0 (1/0/0/0) Section: Results
-  508+1+0 (1/0/15/0) Subsection: Glassgow
+  806+1+0 (1/0/17/0) Subsection: Glassgow
+  2+1+0 (1/0/0/0) Subsection: a-Si
   0+7+0 (4/0/0/0) Subsection: Toshiba
-  0+1+0 (1/0/0/0) Subsection: a-Si
 
 File: tex/theory.tex
 Encoding: ascii
-Words in text: 345
-Words in headers: 34
+Words in text: 712
+Words in headers: 36
 Words outside text (captions, etc.): 0
-Number of headers: 7
+Number of headers: 8
 Number of floats/tables/figures: 0
-Number of math inlines: 3
+Number of math inlines: 4
 Number of math displayed: 3
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+4+0 (1/0/0/0) Section: Detailed Background and Theory
-  15+3+0 (1/0/0/0) Subsection: Integrated silicon photonics
-  1+17+0 (1/0/0/0) Subsection: Marco Liscid - Why its okay to use classical to probe quantum and an introduction to four wavemixing
-  41+2+0 (1/0/0/3) Subsection: Ring Resonators
+  133+8+0 (1/0/0/0) Subsection: From Feynman to the linear optical quantum computer
+  247+7+0 (1/0/1/0) Subsection: From bulk optics to integrated silicon photonics
+  1+7+0 (1/0/0/0) Subsection: Characterisation of quantum processes with classical techniques
+  43+2+0 (1/0/0/3) Subsection: Ring Resonators
   288+1+0 (1/0/3/0) Subsection: Bistability
   0+3+0 (1/0/0/0) Subsection: Self phase modulation
   0+4+0 (1/0/0/0) Subsection: Schmidt Rank and Purity
 
 Total
-Words in text: 1482
-Words in headers: 73
+Words in text: 2153
+Words in headers: 76
 Words outside text (captions, etc.): 0
-Number of headers: 29
+Number of headers: 31
 Number of floats/tables/figures: 0
-Number of math inlines: 19
+Number of math inlines: 22
 Number of math displayed: 3
 Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  43+10+0 (2/0/0/0) File(s) total: document.tex
+  47+11+0 (3/0/0/0) File(s) total: document.tex
   0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
   0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
   469+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
   117+16+0 (10/0/1/0) File(s) total: tex/method.tex
-  508+10+0 (7/0/15/0) File(s) total: tex/results.tex
-  345+34+0 (7/0/3/3) File(s) total: tex/theory.tex
+  808+10+0 (7/0/17/0) File(s) total: tex/results.tex
+  712+36+0 (8/0/4/3) File(s) total: tex/theory.tex
 
