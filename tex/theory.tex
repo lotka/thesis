@@ -24,7 +24,7 @@ the gate operation time
 
 
 
-We focus in on the first criteria from DiVencenzo \cite{divincenzo_physical_2000}, "A scalable system with well characterized qubits", in the context of figure \ref{loqc} this refers to the single photon sources, we require them to be indistinguishable from each other so that the quantum interference which happens in the circuit can be of high visibility. 
+We focus in on the first criteria from DiVencenzo \cite{divincenzo_physical_2000}, "A scalable system with well characterized qubits", which in the context of figure \ref{loqc} refers to the single photon sources. This criteria tell us that our photons must have no degrees of freedom apart from the one which allows the photons to act as qubits. A particular way in which the photons might be different is in their spectral and phase distribution. This is described by their Joint Spectral Amplitude (JSA)
 
 
 
@@ -33,24 +33,25 @@ Quantum optics experiments were first conducted in bulk optics \cite{burnham_obs
 
 Here we focus in on a particular element, the ring resonator on silicon photonic devices. Silicon is an attractive material primarily due to the already established microchip industry which can produce highly precise structures at the nanoscale on the back of decades of demand for faster and smaller computing devices. Furthermore silicon has a high $\chi^{(3)}$ non-linearity enabling frequency conversion and hence the implementation of a single photon source.
 
+\subsection{Four wave mixing in silicon waveguides}
+\begin{equation}
+\nabla^2 \mathbf{E} - \frac{n^2}{c^2}\frac{\partial^2}{\partial t^2}\mathbf{E}
+= \frac{1}{\varepsilon_0 c^2}\frac{\partial^2}{\partial t^2}\mathbf{P}^{NL}
+\end{equation}
+
+\begin{equation}
+\mathbf{P}^{NL} = \epsilon_0\chi^{(3)}\mathbf{E}^3(t)
+\end{equation}
+
 \subsection{Ring Resonators}
-Ring resonators are used as single photon sources. However to understand their behaviour to first order no quantum mechanics is needed. Here are the 3 governing equations:
-%Need to talk about how ring resonators shape this stuff
-
-SPLIT RESONANCES
-
-\begingroup
-    \centering  
-    \includegraphics[width=18cm]{img/theory/coupling.pdf}
-    \captionof{figure}{Notice how similar under and over coupling are to each other}
-     \vspace{3pt} \label{crossCompare}
-\endgroup
+Ring resonators are used enhance the generation of photons in the waveguide in a few key ways. However to understand their behaviour to first order no quantum mechanics is needed. Here are the 3 governing equations:
 
 \begingroup
 \centering
-    \includegraphics[width=5cm]{img/theory/ring.pdf}
-\captionof{figure}{ahhh}
+    \includegraphics[width=9cm]{img/theory/ring.pdf}
+\captionof{figure}{A simple but powerful model of a ring resonator. $E_{in}$ represents the input electrical field and $E_{out}$ is the field after interaction with the ring. $E_{1}$ is the field at the start of the ring and $E_{2}$ is this field with some loss due to propagation through the ring waveguide. We assume that the distance between $E_{out}$ and $E_{in}$ is much smaller than $E_{1}$ and $E_{2}$.}
 \endgroup
+
 \begin{equation}
 \left |\frac{E_{out}}{E_{0}}\right|^2=\frac{r^2-2r\tau\cos(\theta)+\tau^2}{1+r^2\tau^2-2r\tau cos(\theta)}
 \end{equation}
@@ -60,6 +61,15 @@ SPLIT RESONANCES
 \begin{equation}
 \left |\frac{E_{2}}{E_{0}}\right |^2=\tau^2\left|\frac{E_{1}}{E_{0}}\right |^2
 \end{equation}
+
+SPLIT RESONANCES
+
+\begingroup
+    \centering  
+    \includegraphics[width=18cm]{img/theory/coupling.pdf}
+    \captionof{figure}{Notice how similar under and over coupling are to each other}
+     \vspace{3pt} \label{crossCompare}
+\endgroup
 
 \subsection{Bistability}
 %The bistability effect is based on the carrier generation induced by two-photon absorption
