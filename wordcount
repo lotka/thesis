@@ -30,7 +30,7 @@ Number of math displayed: 0
 
 File: tex/introduction.tex
 Encoding: ascii
-Words in text: 469
+Words in text: 474
 Words in headers: 1
 Words outside text (captions, etc.): 0
 Number of headers: 1
@@ -40,16 +40,17 @@ Number of math displayed: 0
 
 File: tex/method.tex
 Encoding: ascii
-Words in text: 117
-Words in headers: 16
+Words in text: 204
+Words in headers: 19
 Words outside text (captions, etc.): 0
-Number of headers: 10
+Number of headers: 11
 Number of floats/tables/figures: 0
 Number of math inlines: 1
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  15+1+0 (1/0/0/0) Section: Method
+  91+1+0 (1/0/0/0) Section: Method
+  11+3+0 (1/0/0/0) Subsection: Collecting a JSI
   15+5+0 (4/0/0/0) Subsection: Silicon Chips
   0+1+0 (1/0/0/0) Subsection: Coupling
   20+2+0 (1/0/0/0) Subsection: Joint Spectrum
@@ -74,41 +75,42 @@ Subcounts:
   0+7+0 (4/0/0/0) Subsection: Toshiba
 
 File: tex/theory.tex
-Encoding: ascii
-Words in text: 712
-Words in headers: 36
+Encoding: utf8
+Words in text: 2190
+Words in headers: 38
 Words outside text (captions, etc.): 0
-Number of headers: 8
+Number of headers: 9
 Number of floats/tables/figures: 0
-Number of math inlines: 4
-Number of math displayed: 3
+Number of math inlines: 59
+Number of math displayed: 19
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+4+0 (1/0/0/0) Section: Detailed Background and Theory
-  133+8+0 (1/0/0/0) Subsection: From Feynman to the linear optical quantum computer
-  247+7+0 (1/0/1/0) Subsection: From bulk optics to integrated silicon photonics
+  371+8+0 (1/0/11/1) Subsection: From Feynman to the linear optical quantum computer
+  510+3+0 (1/0/6/1) Subsection: Generating single photons
+  475+6+0 (1/0/17/12) Subsection: Four wave mixing in silicon waveguides
+  536+2+0 (1/0/22/5) Subsection: Ring Resonators
+  297+1+0 (1/0/3/0) Subsection: Bistability
   1+7+0 (1/0/0/0) Subsection: Characterisation of quantum processes with classical techniques
-  43+2+0 (1/0/0/3) Subsection: Ring Resonators
-  288+1+0 (1/0/3/0) Subsection: Bistability
-  0+3+0 (1/0/0/0) Subsection: Self phase modulation
   0+4+0 (1/0/0/0) Subsection: Schmidt Rank and Purity
+  0+3+0 (1/0/0/0) Subsection: Self phase modulation
 
 Total
-Words in text: 2153
-Words in headers: 76
+Words in text: 3723
+Words in headers: 81
 Words outside text (captions, etc.): 0
-Number of headers: 31
+Number of headers: 33
 Number of floats/tables/figures: 0
-Number of math inlines: 22
-Number of math displayed: 3
+Number of math inlines: 77
+Number of math displayed: 19
 Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   47+11+0 (3/0/0/0) File(s) total: document.tex
   0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
   0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
-  469+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
-  117+16+0 (10/0/1/0) File(s) total: tex/method.tex
+  474+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
+  204+19+0 (11/0/1/0) File(s) total: tex/method.tex
   808+10+0 (7/0/17/0) File(s) total: tex/results.tex
-  712+36+0 (8/0/4/3) File(s) total: tex/theory.tex
+  2190+38+0 (9/0/59/19) File(s) total: tex/theory.tex
 
