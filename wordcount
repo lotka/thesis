@@ -10,7 +10,7 @@ Number of math displayed: 0
 
 File: tex/conclusion.tex
 Encoding: ascii
-Words in text: 0
+Words in text: 1
 Words in headers: 1
 Words outside text (captions, etc.): 0
 Number of headers: 1
@@ -76,41 +76,41 @@ Subcounts:
 
 File: tex/theory.tex
 Encoding: utf8
-Words in text: 2190
+Words in text: 2524
 Words in headers: 38
 Words outside text (captions, etc.): 0
 Number of headers: 9
 Number of floats/tables/figures: 0
-Number of math inlines: 59
-Number of math displayed: 19
+Number of math inlines: 65
+Number of math displayed: 24
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+4+0 (1/0/0/0) Section: Detailed Background and Theory
   371+8+0 (1/0/11/1) Subsection: From Feynman to the linear optical quantum computer
-  510+3+0 (1/0/6/1) Subsection: Generating single photons
-  475+6+0 (1/0/17/12) Subsection: Four wave mixing in silicon waveguides
-  536+2+0 (1/0/22/5) Subsection: Ring Resonators
+  511+3+0 (1/0/6/1) Subsection: Generating single photons
+  754+6+0 (1/0/23/17) Subsection: Four wave mixing in silicon waveguides
+  590+2+0 (1/0/22/5) Subsection: Ring Resonators
   297+1+0 (1/0/3/0) Subsection: Bistability
   1+7+0 (1/0/0/0) Subsection: Characterisation of quantum processes with classical techniques
   0+4+0 (1/0/0/0) Subsection: Schmidt Rank and Purity
   0+3+0 (1/0/0/0) Subsection: Self phase modulation
 
 Total
-Words in text: 3723
+Words in text: 4058
 Words in headers: 81
 Words outside text (captions, etc.): 0
 Number of headers: 33
 Number of floats/tables/figures: 0
-Number of math inlines: 77
-Number of math displayed: 19
+Number of math inlines: 83
+Number of math displayed: 24
 Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   47+11+0 (3/0/0/0) File(s) total: document.tex
-  0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
+  1+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
   0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
   474+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
   204+19+0 (11/0/1/0) File(s) total: tex/method.tex
   808+10+0 (7/0/17/0) File(s) total: tex/results.tex
-  2190+38+0 (9/0/59/19) File(s) total: tex/theory.tex
+  2524+38+0 (9/0/65/24) File(s) total: tex/theory.tex
 

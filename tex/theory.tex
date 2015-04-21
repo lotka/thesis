@@ -5,7 +5,7 @@ It was Richard Feynman in 1982\cite{feynman_simulating_1982} who first imagined 
 \begin{equation}
 \ket{\psi}=\alpha \ket{0}+\beta\ket{1}
 \end{equation}
-this says the qubit is in a superposition of being in the $\ket{0}$ and $\ket{1}$ state at the same time, $\alpha$ and $\beta$ are the complex probability amplitudes. If we perform a measurement there is a $|\alpha|^2$ probability of measuring $\ket{0}$ and a $1-|\alpha|^2=|\beta|^2$ probability of measuring $\ket{1}$. This is a generalization of the classical bit, which can only ever be set to 0 or 1. With this added structure, quantum computers can in theory out perform classical computers in certain tasks such as factorisation [REF NEEDED], meteorology [REF NEEDED], quantum chemistry[REF NEEDED] and they can be used to establish communication systems secured by the laws of physics with quantum key distribution (QKD).
+this says the qubit is in a superposition of being in the $\ket{0}$ and $\ket{1}$ state at the same time, $\alpha$ and $\beta$ are the complex probability amplitudes. If we perform a measurement there is a $|\alpha|^2$ probability of measuring $\ket{0}$ and a $1-|\alpha|^2=|\beta|^2$ probability of measuring $\ket{1}$. This is a generalization of the classical bit, which can only ever be set to 0 or 1. With this added structure, quantum computers can in theory out perform classical computers in certain tasks such as factorisation \cite{shor_polynomial-time_1995}, meteorology \cite{toth_quantum_2014}, quantum chemistry\cite{georgescu_quantum_2014} and they can be used to establish communication systems secured by the laws of physics with quantum key distribution (QKD)\cite{zhang_reference-frame-independent_2014}.
 
 With the exception of QKD none of these applications have yet been fully realised, in particular because not all of the criteria  \cite{divincenzo_quantum_1998} set out in 1998 by DiVincenzo for a universal quantum  computer have been met. These are:
 \begin{itemize}
@@ -19,14 +19,14 @@ the gate operation time
 	\item A qubit-specific measurement capability
 \end{itemize}
 
+This work aims to make some progress on the first two criteria in the context of integrated optical quantum computers. Here we define qubits as photons, with $\ket{0}$ and $\ket{1}$ denoting the path a photon takes through a linear optical quantum circuit (LOQC). Figure \ref{loqc} shows how a LOQC fits into a wider context, with single photon sources supplying qubits, single photon detectors reading out the results of the computations and a classical computer to feedback the the results into the circuit. To discuss the two criteria further we first introduce single photon sources.
+
 \begingroup
     \centering  
     \includegraphics[width=12cm]{img/theory/loqc.pdf}
     \captionof{figure}{A conceptual outline of the architecture of a optical quantum computer, single photon sources supply the qubits which are fed into reconfigurable circuits which are altered depending on the pattern of photons detected at the detectors. }
      \vspace{3pt} \label{loqc}
 \endgroup
-
-This work aims to make some progress on the first two criteria in the context of integrated optical quantum computers. Here we define qubits as photons, with $\ket{0}$ and $\ket{1}$ denoting the path a photon takes through a linear optical quantum circuit (LOQC). Figure \ref{loqc} shows how a LOQC fits into a wider context, with single photon sources supplying qubits, single photon detectors reading out the results of the computations and a classical computer to feedback the the results into the circuit. To discuss the two criteria further we first introduce single photon sources.
 
 %We focus in on the first two criteria from DiVencenzo \cite{divincenzo_physical_2000}, "A scalable system with well characterized qubits", which in the context of figure \ref{loqc} refers to the single photon sources. This criteria tell us that our photons must have no degrees of freedom apart from one which allows the photons to act as qubits. This means each time a photon is generated it must have the identical spectral and phase characteristics, in other words it must be in a pure state and not in statistical mixture of states.
 %A particular way in which the photons might be different is in their energy and phase distribution. This is described by their Joint Spectral Amplitude (JSA), this along with the Joint Spectral Intensity (JSI) which is the absolute value squared of the JSA is the focus of this work. By measuring the JSI we can begin to explore how existing methods of generating single photons are performing.
@@ -36,9 +36,10 @@ This work aims to make some progress on the first two criteria in the context of
 \subsection{Generating single photons}
 The previous section motivated the the need for a single photon source, we first look at the history and then focus on one promising source, the ring resonator on a silicon photonic chip.
 
-[Page 12 Damiens thesis to do with university internet.]
+The ideal single photon source would produce exactly one photon when triggered in a pure quantum state, which means it is in a state superposition of all of its spectral components rather than a statistical mixture. This is happens if the temporal shape is the same as the Fourier transform of its spectrum \cite{uren_generation_2007}. Such a perfect source does not yet exist. We can divide existing sources into two categories deterministic and non-deterministic. The first kind are typically small single atom or molecule systems, which respond deterministically to some kind of impulse. For example a single atom two level system can be excited by a laser pulse into the upper level, it will then emit a photon of some fixed energy after some relaxation time. 
 
-In the past these experiments have typically been performed with bulk optics meaning that each element is fixed to a large optical work bench, carefully aligned with the next element and with the light traveling in the air in between. These experiments take up a lot of lab space and quickly encounter resource constraints if they try to become too complex. A solution to this is to translate each of the components onto a integrated chip, where far less alignment is needed, the important devices always maintain the same separation and most importantly vastly more complicated circuits can be designed. This is of course essential to the endeavour of using LOQC's to perform complex quantum operations. Note again Divencenzo's first criteria, referring to scalability, integrating photonics onto chips makes a lot of progress on this front.
+
+In the past these experiments have typically been performed with bulk optics meaning that each element is fixed to a large optical work bench, carefully aligned with the next element and with the light travelling in the air in between. These experiments take up a lot of lab space and quickly encounter resource constraints if they try to become too complex. A solution to this is to translate each of the components onto a integrated chip, where far less alignment is needed, the important devices always maintain the same separation and most importantly vastly more complicated circuits can be designed. This is of course essential to the endeavour of using LOQC's to perform complex quantum operations. Note again Divencenzo's first criteria, referring to scalability, integrating photonics onto chips makes a lot of progress on this front.
 
 Photonics can be integrated onto chips of various materials, typical choices are glass, lithium niobate and silicon. Here we focus on silicon, it has the advantage that advanced fabrication techniques exist due to the multi-billion dollar semiconductor industry. Two types of silicon are used, the first is the standard silicon with its periodic lattice structure and the second is amorphous silcion which forms a random network structure. Amorphous silicon could potentially solve problems with standard silicon such as two photon absorption and subsequent free carrier absorption which is known to be detrimental to single photon sources.
 
@@ -95,7 +96,7 @@ We call the resulting beam $\omega_i$ the idler. Now we take interest in the sec
 Discussion of phase matching has been omitted, but it is enough to say that in order for the process to constructively interfere and hence satisfy the wave equations we must have $2\mathbf{k_p}=\mathbf{k_i}+\mathbf{k_s}$.
 
 
-Now in order to put take this process to the single photon level we must introduce a way to talk about photons at the quantum scale. Because of the Heisenberg uncertainty principle the number of photons at each energy level can be uncertain. Such states are described by a vector in fock space, for example a state where there are two photons in the first and third energy level would be written as:
+Now in order to take this process to the single photon level we must introduce a way to talk about photons at the quantum scale. Because of the Heisenberg uncertainty principle the number of photons at each energy level can be uncertain. Such states are described by a vector in fock space, for example a state where there are two photons in the first and third energy level would be written as:
 \begin{equation}
 	\ket{2020...}
 \end{equation}
@@ -124,13 +125,13 @@ The linear vacuum hamiltonian is also involved:
 \hat H_{L} = \int_\infty^\infty a_{k}^{\dagger}a_{k}dk
 \end{equation}
 \noindent
-Adding these two up to give the overall hamiltonian gives $\hat H + \hat H_{L} + \hat H_{NL}$. The function $S(k_{p_s},k_{p_i},k_{p_1},k_{p_2})$ represents the coupling between the various frequencies. 
+Adding these two up gives the overall hamiltonian $\hat H = \hat H_{L} + \hat H_{NL}$. The function $S(k_{p_s},k_{p_i},k_{p_1},k_{p_2})$ represents the coupling between the various frequencies. 
 
 This general frame work applies to both straight waveguide and ring resonator production of photon pairs. There is a large amount of literature [,,,,] which describes how to use it to derive the resultant wavefunction, here we simply state the general result:
 \begin{equation}
 \ket{\psi_{out}}=\left [1 + \frac{\beta}{\sqrt{2}}\int dk_1dk_2\Phi(k_1,k_2)a_{k_1}^{\dagger}a_{k_2}^{\dagger} \right ]\ket{vac} \label{JSAWavefunct}
 \end{equation}
-This is called the biphoton wavefunction. The function $\Phi(k_1,k_2)$ encodes all of the information about how the photon pairs were produced that effects its spectral and phase distribution. This includes the pump spectrum, intensity, the geometry of the waveguide or cavity used for the process.
+This is called the biphoton wavefunction, the reason we omit the full theory is because this project focuses on measurement and anylsis of $\Phi$ rather than it's exact theoretical origin. The biphoton wavefunction encodes all of the information about how the photon pairs were produced that effects its spectral and phase distribution. This includes the pump spectrum, intensity, the geometry of the waveguide or cavity used for the process.
 
 This function $\Phi(k_1,k_2)$ is called the joint spectral amplitude (JSA) and its absolute value squared is called the joint spectral intensity (JSI). Returning to DiVenceno's criteria we require that this function is of the form $\Phi(k_1,k_2)=f(k_1)g(k_2)$ to explain this we introduce some more quantum theory.
 
