@@ -1,0 +1,97 @@
+\begin{thebibliography}{10}
+
+\bibitem{feynman_simulating_1982}
+Richard~P. Feynman.
+\newblock Simulating physics with computers.
+\newblock {\em Int J Theor Phys}, 21(6-7):467--488, June 1982.
+
+\bibitem{shor_polynomial-time_1995}
+Peter~W. Shor.
+\newblock Polynomial-{Time} {Algorithms} for {Prime} {Factorization} and
+  {Discrete} {Logarithms} on a {Quantum} {Computer}.
+\newblock {\em arXiv:quant-ph/9508027}, August 1995.
+\newblock arXiv: quant-ph/9508027.
+
+\bibitem{toth_quantum_2014}
+Geza Toth and Iagoba Apellaniz.
+\newblock Quantum metrology from a quantum information science perspective.
+\newblock {\em Journal of Physics A: Mathematical and Theoretical},
+  47(42):424006, October 2014.
+\newblock arXiv: 1405.4878.
+
+\bibitem{georgescu_quantum_2014}
+I. M. Georgescu, S.~Ashhab, and Franco Nori.
+\newblock Quantum simulation.
+\newblock {\em Rev. Mod. Phys.}, 86(1):153--185, March 2014.
+
+\bibitem{zhang_reference-frame-independent_2014}
+P.~Zhang, K.~Aungskunsiri, E.~Martín-López, J.~Wabnig, M.~Lobino, R.~W. Nock,
+  J.~Munns, D.~Bonneau, P.~Jiang, H.~W. Li, A.~Laing, J.~G. Rarity, A.~O.
+  Niskanen, M.~G. Thompson, and J.~L. O'Brien.
+\newblock Reference-frame-independent quantum-key-distribution server with a
+  telecom tether for an on-chip client.
+\newblock {\em Phys. Rev. Lett.}, 112(13):130501, April 2014.
+
+\bibitem{divincenzo_quantum_1998}
+David~P. DiVincenzo and Daniel Loss.
+\newblock Quantum {Information} is {Physical}.
+\newblock {\em Superlattices and Microstructures}, 23(3-4):419--432, March
+  1998.
+\newblock arXiv: cond-mat/9710259.
+
+\bibitem{uren_generation_2007}
+Alfred~B. U’Ren, Yasser Jeronimo-Moreno, and Hipolito Garcia-Gracia.
+\newblock Generation of {Fourier}-transform-limited heralded single photons.
+\newblock {\em Phys. Rev. A}, 75(2):023810, February 2007.
+
+\bibitem{eisaman_invited_2011}
+M.~D. Eisaman, J.~Fan, A.~Migdall, and S.~V. Polyakov.
+\newblock Invited {Review} {Article}: {Single}-photon sources and detectors.
+\newblock {\em Review of Scientific Instruments}, 82(7):071101, July 2011.
+
+\bibitem{silverstone_-chip_2014}
+J.~W. Silverstone, D.~Bonneau, K.~Ohira, N.~Suzuki, H.~Yoshida, N.~Iizuka,
+  M.~Ezaki, C.~M. Natarajan, M.~G. Tanner, R.~H. Hadfield, V.~Zwiller, G.~D.
+  Marshall, J.~G. Rarity, J.~L. O'Brien, and M.~G. Thompson.
+\newblock On-chip quantum interference between silicon photon-pair sources.
+\newblock {\em Nat Photon}, 8(2):104--108, February 2014.
+
+\bibitem{engin_photon_2013}
+Erman Engin, Damien Bonneau, Chandra~M. Natarajan, Alex~S. Clark, M.~G. Tanner,
+  R.~H. Hadfield, Sanders~N. Dorenbos, Val Zwiller, Kazuya Ohira, Nobuo Suzuki,
+  Haruhiko Yoshida, Norio Iizuka, Mizunori Ezaki, Jeremy~L. O?Brien, and
+  Mark~G. Thompson.
+\newblock Photon pair generation in a silicon micro-ring resonator with reverse
+  bias enhancement.
+\newblock {\em Opt. Express}, 21(23):27826--27834, November 2013.
+
+\bibitem{harder_optimized_2013}
+Georg Harder, Vahid Ansari, Benjamin Brecht, Thomas Dirmeier, Christoph
+  Marquardt, and Christine Silberhorn.
+\newblock An optimized photon pair source for quantum circuits.
+\newblock {\em Opt. Express}, 21(12):13975--13985, June 2013.
+
+\bibitem{almeida_optical_2004-1}
+Vilson~R. Almeida and Michal Lipson.
+\newblock Optical bistability on a silicon chip.
+\newblock {\em Opt. Lett.}, 29(20):2387--2389, October 2004.
+
+\bibitem{xu_carrier-induced_2006}
+Qianfan Xu and Michal Lipson.
+\newblock Carrier-induced optical bistability in silicon ring resonators.
+\newblock {\em Opt. Lett.}, 31(3):341--343, February 2006.
+
+\bibitem{azzini_classical_2012}
+Stefano Azzini, Davide Grassani, Matteo Galli, Lucio~Claudio Andreani, Marc
+  Sorel, Michael~J. Strain, L.~G. Helt, J.~E. Sipe, Marco Liscidini, and
+  Daniele Bajoni.
+\newblock From classical four-wave mixing to parametric fluorescence in silicon
+  microring resonators.
+\newblock {\em Opt. Lett.}, 37(18):3807--3809, September 2012.
+
+\bibitem{scammell_indistinguishable_2014}
+Eric Scammell.
+\newblock Indistinguishable {Heralded} {Photons} from {Silicon} {Ring}
+  {Resonators}, 2014.
+
+\end{thebibliography}

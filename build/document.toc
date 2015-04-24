@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {2}Detailed Background and Theory}{5}
+\contentsline {subsection}{\numberline {2.1}From Feynman to the linear optical quantum computer}{5}
+\contentsline {subsection}{\numberline {2.2}Generating single photons}{6}
+\contentsline {subsection}{\numberline {2.3}Four wave mixing in silicon waveguides}{7}
+\contentsline {subsection}{\numberline {2.4}Analysis of the JSI}{9}
+\contentsline {subsubsection}{\numberline {2.4.1}Purity formula examples}{10}
+\contentsline {subsection}{\numberline {2.5}Ring Resonators}{12}
+\contentsline {subsection}{\numberline {2.6}Bistability}{15}
+\contentsline {subsection}{\numberline {2.7}Characterisation of quantum processes with classical techniques}{15}
+\contentsline {subsection}{\numberline {2.8}Alternative methods of finding the purity}{16}
+\contentsline {subsection}{\numberline {2.9}What experiments can be done?}{16}
+\contentsline {section}{\numberline {3}Method}{16}
+\contentsline {subsection}{\numberline {3.1}Joint Spectrum}{20}
+\contentsline {subsection}{\numberline {3.2}$g^{(2)}(0)$}{20}
+\contentsline {subsection}{\numberline {3.3}Analysing Data}{20}
+\contentsline {section}{\numberline {4}Results}{21}
+\contentsline {subsection}{\numberline {4.1}Glassgow}{21}
+\contentsline {subsection}{\numberline {4.2}a-Si}{24}
+\contentsline {section}{\numberline {5}Discussion}{25}
+\contentsline {section}{\numberline {6}Conclusion}{26}
+\contentsline {section}{\numberline {A}Schmidt Number}{29}
+\contentsline {subsection}{\numberline {A.1}Definition}{29}
+\contentsline {subsection}{\numberline {A.2}Calculation from experimental data}{29}
+\contentsline {subsubsection}{\numberline {A.2.1}Trace method}{29}
+\contentsline {subsubsection}{\numberline {A.2.2}Alternate implementation with SVD decomposition}{30}
+\contentsline {section}{\numberline {B}Equipment Specifications}{31}
+\contentsline {section}{\numberline {C}Transfer matrix analysis of ring resonator cavities}{31}

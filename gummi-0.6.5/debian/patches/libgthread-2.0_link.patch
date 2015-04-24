@@ -1,0 +1,15 @@
+Description: Add link against libthread-2.0.
+Origin: https://launchpad.net/ubuntu/+archive/primary/+files/gummi_0.6.1-1ubuntu1.debian.tar.gz
+Author: Daniel T. Chen <crimsun@errno>
+
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -5,7 +5,7 @@
+ 	    -DGUMMI_LOCALES=\"$(datadir)/locale\"
+ 
+ gummi_LDADD = $(GUI_LIBS) \
+-	      $(LIBINTL)
++	      $(LIBINTL) -lgthread-2.0
+ 
+ gummi_SOURCES = biblio.c  biblio.h \
+ 		configfile.c configfile.h \

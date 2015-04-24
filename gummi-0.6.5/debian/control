@@ -1,0 +1,34 @@
+Source: gummi
+Section: tex
+Priority: optional
+Maintainer: Daniel Stender <debian@danielstender.com>
+Build-Depends:
+ debhelper (>= 9),
+ dh-autoreconf,
+ intltool,
+ libglib2.0-dev (>= 2.20),
+ libgtk2.0-dev (>= 2.20),
+ libgtksourceview2.0-dev (>= 2.2.1),
+ libgtkspell-dev,
+ libpoppler-glib-dev
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/collab-maint/gummi.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/gummi.git
+Homepage: http://gummi.midnightcoding.org/
+
+Package: gummi
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: texlive-extra-utils, texlive-latex-base, texlive-xetex
+Description: GTK+ based LaTeX editor with live preview
+ Gummi is a LaTeX editor based on GTK+.
+ The basic features are:
+  - Live preview pane for the compiled document,
+  - BibTeX integration,
+  - Helpers for tables and matrices,
+  - Exporting to PDF,
+  - Error checking,
+  - Syntax highlighting,
+  - Spellchecking,
+  - Document statistics,
+  - Persistent configuration.

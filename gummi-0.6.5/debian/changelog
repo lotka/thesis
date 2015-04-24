@@ -1,0 +1,93 @@
+gummi (0.6.5-3) unstable; urgency=low
+
+  * Fix "FTBFS: automake errors":
+    add patch automake-subdirs.patch:
+    pass subdir-objects to AM_INIT_AUTOMAKE.
+    (Closes: #725534) Thanks to Gregor Herrmann.
+  * deb/control:
+    + changed maintainer email address.
+    + bumped standards to 3.9.5 (no changed needed).
+  * deb/copyright:
+    + extended copyrights to 2014.
+    + changed email address for Daniel Stender.
+  * added gummi.desktop.patch.
+
+ -- Daniel Stender <debian@danielstender.com>  Sun, 09 Feb 2014 18:27:00 +0100
+
+gummi (0.6.5-2) unstable; urgency=low
+
+  * deb/control:
+    * changed VCS fields.
+
+ -- Daniel Stender <daniel@danielstender.com>  Sat, 01 Jun 2013 18:54:01 +0200
+
+gummi (0.6.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bumped standards version to 3.9.4 (no changes needed).
+  * deb/copyright: extended copyrights to 2013.
+  * deb/rules:
+    + added override for dh_installchangelogs.
+    + removed override for dh_auto_test.
+  * Bumped debhelper level to 9 (deb/control and deb/compat).
+  * deb/patches:
+    + removed fix_fd_leak_path (improved by upstream).
+    + changed libgthread-2.0_link.patch.
+
+ -- Daniel Stender <daniel@danielstender.com>  Sat, 11 May 2013 09:04:29 +0200
+
+gummi (0.6.3-1.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "gummi leaks file descriptors leading to a crash if the fd limit
+    is reached": add patch fix_fd_leak.patch from Justus Winter:
+    close file descriptors.
+    (Closes: #688112)
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 30 Sep 2012 17:27:44 +0200
+
+gummi (0.6.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added libgthread-2.0_link.patch (from 0.6.1-1ubuntu1):
+    + debian/control: added build-dep for dh-autoreconf.
+    + debian/rules: added autoreconf to dh plus override.
+  * debian/rules: added override for dh_auto_clean.
+  * Bumped standards version to 3.9.3 (no changes needed).
+  * Changed watch file.
+  * Changes of debian/copyright:
+    + Changed DEP-5 URI.
+    + Expanded copyrights to 2012.
+
+ -- Daniel Stender <daniel@danielstender.com>  Fri, 30 Mar 2012 09:45:02 +0200
+
+gummi (0.6.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Changes of debian/control:
+    + Wrapped-and-sorted.
+    + Bumped standards-version to 3.9.2 (no changed needed).
+    + Bumped GTK and GLIB build-deps to 2.20 (as needed by upstream).
+    + Moved dep on texlive-latex-base moved to recommends (Closes: #647774).
+    + Added dep on texlive-extra-utils to recommends (LP: #874045).
+    + Changed Homepage URL.
+  * Changes of debian/copyright:
+    + Changed to meet DEP-5, specification bumped to rev. 202.
+    + Changed Source URL.
+    + Expanded copyrights to 2011.
+    + Upstream copyright holders now collected as Gummi-Dev Team.
+
+ -- Daniel Stender <daniel@danielstender.com>  Fri, 02 Dec 2011 10:09:55 +0100
+
+gummi (0.5.8-1) unstable; urgency=low
+
+  * New upstream release.
+  * Removed spurious build-dep on libpoppler-dev (Closes: #618766).
+
+ -- Daniel Stender <daniel@danielstender.com>  Mon, 21 Mar 2011 14:50:50 +0100
+
+gummi (0.5.5-1) unstable; urgency=low
+
+  * Initial release (closes: #557430).
+
+ -- Daniel Stender <daniel@danielstender.com>  Fri, 10 Dec 2010 21:02:00 +0100

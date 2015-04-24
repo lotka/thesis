@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: build/document.aux
+The style file: unsrt.bst
+Database file #1: bibfile.bib
+Warning--I didn't find a database entry for "trace"
+You've used 15 entries,
+            1791 wiz_defined-function locations,
+            548 strings with 6863 characters,
+and the built_in function-call counts, 4161 in all, are:
+= -- 328
+> -- 273
+< -- 0
++ -- 97
+- -- 82
+* -- 401
+:= -- 705
+add.period$ -- 47
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 130
+empty$ -- 353
+format.name$ -- 82
+if$ -- 853
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 14
+newline$ -- 80
+num.names$ -- 15
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 49
+stack$ -- 0
+substring$ -- 333
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 37
+width$ -- 17
+write$ -- 169
+(There was 1 warning)

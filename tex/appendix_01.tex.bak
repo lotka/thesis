@@ -1,0 +1,68 @@
+\section{Schmidt Number}
+\label{schmidtAppendix}
+\subsection{Definition}
+Starting with some abitrary state $\psi$:
+\begin{align}
+|\psi \rangle &= \sum_{i,j}\alpha(i,j)|i\rangle_A\otimes|j\rangle_B 
+\end{align}
+The schimdt number $K$ of this state measures the degree of entanglement. If $K=1$ then you can find $|\psi \rangle  = |\xi \rangle\otimes |\eta \rangle$ and for $K>1$ you can find: 
+\begin{align}
+|\psi \rangle &=\sum_{i}^{K} r_i|\xi_i \rangle_A\otimes |\eta_i \rangle_B
+\end{align}
+Note that $1\leq K\leq D$ where $D$ is the dimension of the system. The purity is the inverse of K so: 
+\begin{align}
+P=1/K
+\end{align}
+An expression for $K$ can be found using the density matrix for $\psi$:
+\begin{align}
+\rho_{AB} &=|\psi \rangle \langle\psi| = \sum_{i,j,k,l}\alpha(i,j)\alpha^*(k,l)|i\rangle\langle k| \otimes|j\rangle \langle l| \\
+\rho_{A} &=\Tr_B(\rho_{AB}) = \sum_{i,j,k}\alpha(i,j)\alpha^*(k,j)|i\rangle \langle k|  \\
+\rho_{A}^2 &= \sum_{i',j',k'}\sum_{i,j,k}\alpha(i,j)\alpha(k,j)\alpha^*(i',j')\alpha^*(k',j')|i\rangle \langle k|i'\rangle \langle k'|  \\
+&= \sum_{j',k'}\sum_{i,j,k}\alpha(i,j)\alpha^*(k,j)\alpha(k,j')\alpha^*(k',j')|i\rangle \langle k'|  \\
+\Tr_A(\rho_{A}^2)&= \sum_{i,j,k,j'}\alpha(i,j)\alpha^*(k,j)\alpha(k,j')\alpha^*(i,j')  \\
+\end{align}
+For a unentangled $\psi$ we know that $\Tr_A(\rho_{A}^2)=1$ For $\psi$ entangled this will be smaller than 1 (proof comes from the property of the density operator that its eigenvalues are all smaller than 1). This fits the definiton of the purity of a quantum state hence we can write:
+\begin{align} \label{theShit}
+P = \frac{1}{K}&= \sum_{i,j,k,l}\alpha(i,j)\alpha^*(k,j)\alpha(k,l)\alpha^*(i,l)
+\end{align}
+\subsection{Calculation from experimental data}
+\subsubsection{Trace method}
+In the lab we can measure $|\phi(\omega_1,\omega_2)|^2$, here I outline how to extract the schimdt number from this set of values. Taking the positive square root of the matrix of values obtained from the lab you have a matrix ${\bf f}$ given by:
+\begin{align}
+{\bf f}&=\sum_{\omega_1,\omega_2}\phi(\omega_1,\omega_2)|\omega_1\rangle\langle\omega_2|
+\end{align}
+(This seems to be some weird way of writing the wavefunction as a matrix, bare with me it turns out to be useful)
+\begin{align}\label{rhoA}
+{\bf f}^{\dagger}{\bf f}&=\sum_{\omega_1,\omega_2,\omega_3}\phi(\omega_1,\omega_2)\phi(\omega_3,\omega_2)|\omega_1\rangle\langle\omega_3|
+\end{align}
+\begin{align}
+({\bf f}^{\dagger}{\bf f})^2&=\sum_{\omega_1,\omega_2,\omega_3,\omega_4,\omega_5,\omega_6}\phi(\omega_1,\omega_2)\phi(\omega_3,\omega_2)\phi(\omega_4,\omega_5)\phi(\omega_6,\omega_5)|\omega_1\rangle\langle\omega_3|\omega_4\rangle\langle\omega_6|\\
+({\bf f}^{\dagger}{\bf f})^2&=\sum_{\omega_1,\omega_2,\omega_3,\omega_4,\omega_5,\omega_6}\phi(\omega_1,\omega_2)\phi(\omega_3,\omega_2)\phi(\omega_3,\omega_5)\phi(\omega_6,\omega_5)|\omega_1\rangle\langle\omega_6|\\
+\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]&=\sum_{\omega_1,\omega_2,\omega_3,\omega_4}\phi(\omega_1,\omega_2)\phi(\omega_3,\omega_2)\phi(\omega_3,\omega_4)\phi(\omega_1,\omega_4)
+\end{align}
+I've done it this way because I wanted to figure out where the equation in \cite{trace} comes from. You can now see that equation \ref{theShit} is of exactly the same form as $\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]$ (barring the conjugates but this is okay since $\phi$ is real.) Taking the parallel further it can be seen that equation \ref{rhoA} is of the form of a reduced density matrix. Here we must make sure to normalise to make sure this is a valid reduced density matrix. The normalisation is:
+\begin{align}
+N = \Tr\left [{\bf f}^{\dagger}{\bf f} \right ]&=\sum_{\omega_1,\omega_2}\phi(\omega_1,\omega_2)^2
+\end{align}
+Giving:
+\begin{align}
+\rho_A = \frac{{\bf f}^{\dagger}{\bf f}}{N}
+\end{align}
+We can then write:
+\begin{align}
+\frac{1}{K}=\frac{\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]}{\Tr\left [{\bf f}^{\dagger}{\bf f} \right ]^2}
+\end{align}
+\subsubsection{Alternate implementation with SVD decomposition} \label{svdAppendix}
+Taking the SVD decomposition of ${\bf f}$ gives:
+\begin{align}
+{\bf f}&=\sum_{i}|i\rangle s_i\langle i|
+\end{align}
+Where $s_i$ are the singular values. From wikipedia it turns out that $s_i^2$ are the eigenvalues of  ${\bf f}^{\dagger}{\bf f}$ which is also equal to the reduced density operator. Following the steps of the previous section then gives:
+\begin{align}
+{\bf f}^{\dagger}{\bf f}&=\sum_{i}|i\rangle s^2_i\langle i|\\
+({\bf f}^{\dagger}{\bf f})^2&=\sum_{i}|i\rangle s^4_i\langle i|
+\end{align}
+And so:
+\begin{align}
+\frac{1}{K}=\frac{\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]}{\Tr\left [{\bf f}^{\dagger}{\bf f} \right ]^2}=\frac{\sum_{i}s^4_i}{\left ( \sum_{j}s^2_j \right )^2}=\sum_{i}\left (\frac{s^2_i}{ \sum_{j}s_j^2 }\right )^2
+\end{align}

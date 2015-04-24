@@ -1,0 +1,6 @@
+?package(gummi):\
+needs="X11"\
+title="Gummi"\
+description="GTK+ based LaTeX editor with live preview"\
+section="Applications/Editors"\
+command="/usr/bin/gummi"

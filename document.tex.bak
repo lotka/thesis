@@ -1,0 +1,109 @@
+\documentclass[11pt]{article}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\lstset{
+  %frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  tabsize=3
+}
+
+%\documentclass[prb,11pt]{revtex4-1}
+\usepackage{multicol}
+\usepackage{array}% http://ctan.org/pkg/array
+\usepackage{shortvrb}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{braket}
+%\usepackage[hypcap]{caption}
+\usepackage{capt-of}
+\usepackage{amsmath}
+\usepackage{mathdots}
+\usepackage{fullpage}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{cite}
+%\usepackage{hyperref}
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+\usepackage{siunitx}
+\usepackage{multicol}
+\usepackage{cite}
+\DeclareMathOperator{\Tr}{Tr}
+
+\usepackage{fancyhdr}
+\lhead{aa}
+
+\title{Entanglement of photons pairs generated in silicon ring resonators}
+\date{\today}
+\author{Luka Milic}
+
+\begin{document}
+\begin{titlepage}
+%\sffamily
+  \includegraphics[scale=0.6]{img/uob-logo.png}\hfill
+  \LARGE Department Of Physics \\
+  \begin{center}
+    FINAL YEAR PROJECT, DISSERTATION OR\\
+    PHYSICS EDUCATION REPORT
+  \end{center} 
+
+  \large
+  {\renewcommand{\arraystretch}{2}%
+  \begin{tabular}[t]{|l|p{10cm}|}
+    \hline
+    NAME: & Luka Milic \\ \hline
+    DEGREE COURSE: & Mathematics and Physics (MSci)\\ \hline
+    PROJECT TITLE: & Entanglement of photons pairs generated in silicon ring resonators \\ \hline
+    YEAR OF SUBMISSION: & 2015\\ \hline
+    SUPERVISOR: & Damien Bonneau, Josh Silverstone and Mark Thompson\\ \hline
+    NUMBER OF WORDS: & 4000 (exclude appendices, references, captions and abstract)\\ \hline
+  \end{tabular} } \quad
+  \\[1.5cm]
+  \begin{center}
+    \includegraphics[scale=0.7]{img/nsqi.jpg}
+  \end{center}
+\end{titlepage}
+\newpage
+\maketitle
+\begin{abstract}
+Do the abstract last.
+\end{abstract}
+\newpage
+\renewcommand{\abstractname}{Acknowledgements}
+\newpage
+\begin{abstract}
+Thank you Damien and Josh for your invaluable help throughout my project. Lizzy for working with me in the lab. Imad for your help and encouragement. Mark for giving me the opportunity and supervision. Raf for your help and  Phil for supplying sarcasm. 
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+\input{tex/introduction.tex}
+\input{tex/theory.tex}
+\input{tex/method.tex}
+\input{tex/results.tex}
+\input{tex/discussion.tex}
+\input{tex/conclusion.tex}
+\newpage
+%READ THIS: \cite{jalali_silicon_2006}
+%\bibliographystyle{unsrt}
+\bibliographystyle{unsrt}
+\bibliography{bibfile}
+\newpage
+\appendix 
+\input{tex/appendix_01.tex}
+\input{tex/appendix_02.tex}
+\input{tex/appendix_03.tex}
+
+%\end{multicols}
+\end{document}
