@@ -162,7 +162,7 @@ In order to talk about how pure or mixed a biphoton wavefunction, the JSA can be
 
 With $\sum_i \lambda_i=1$. Now it is possible to assess the separability of such a JSA by choosing a metric to quantify how many terms  equation \ref{modes} has. A convenient one is the purity defined as: 
 
-\begin{equation} \label{purityEqn}
+\begin{equation} \label{purityEqn1}
 	P = \sum_i \lambda_i^4
 \end{equation}
 
@@ -186,7 +186,7 @@ where we sum over some finite region with finite increments. Also there will be 
 \noindent
 Now to approximate the purity we use the formula:
 
-\begin{equation} \label{purityEqn}
+\begin{equation} \label{purityEqn2}
 P = \frac{1}{K}\approx\frac{\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]}{\Tr\left [{\bf f}^{\dagger}{\bf f} \right ]^2}
 \end{equation}
 \noindent
@@ -204,15 +204,15 @@ Where $\lambda_i$ are the singular values of the matrix $\mathbf{f}$. The SVD de
 \noindent
 This has the same form as
 
-\begin{equation} \label{modes}
+\begin{equation} \label{modes2}
 	\Phi(k_1,k_2) = \sum_i \lambda_if_i(k_1)g_i(k_2)
 \end{equation}
 \noindent
-and this is called the schmidt decomposition. So by using the purity formula (equation \ref{purityEqn}) on ${\bf f }$ we have found a way to estimate the number of modes in our bi-photon wave function, which is the quantity we want to minimise for an ideal single photon source.
+and this is called the schmidt decomposition. So by using the purity formula (equation \ref{purityEqn2}) on ${\bf f }$ we have found a way to estimate the number of modes in our bi-photon wave function, which is the quantity we want to minimise for an ideal single photon source.
 
 \subsubsection{Purity formula examples}
 
-In this section we probe the behaviour of the purity formula (equation \ref{purityEqn}) which was found in the previous section. The main aim is to numerically simulate how experimental error effects the calculated purity. This is achieved by plotting the four characteristic functions as in figure \ref{jsOrig}. Function a) illustrates that a flat function is completely separable, this obvious result will be important later on when considering how cropping effects the JSI. Function b) comes from the simulation of a ring resonator (see section \ref{resSect}) biphoton wavefunction. Function c) is simply a straight line an example of a function which is not very seperable. Function d) is similar, but with a gaussian cross section, this is included to mirror what happens in a straight waveguide source. Although a straight waveguide source will have a different shape, the response to noise should be similar. This claim is backed up by the fact that a) and b) respond similarly to the addition of noise.
+In this section we probe the behaviour of the purity formula (equation \ref{purityEqn1}) which was found in the previous section. The main aim is to numerically simulate how experimental error effects the calculated purity. This is achieved by plotting the four characteristic functions as in figure \ref{jsOrig}. Function a) illustrates that a flat function is completely separable, this obvious result will be important later on when considering how cropping effects the JSI. Function b) comes from the simulation of a ring resonator (see section \ref{resSect}) biphoton wavefunction. Function c) is simply a straight line an example of a function which is not very seperable. Function d) is similar, but with a gaussian cross section, this is included to mirror what happens in a straight waveguide source. Although a straight waveguide source will have a different shape, the response to noise should be similar. This claim is backed up by the fact that a) and b) respond similarly to the addition of noise.
 
 \begingroup
 \centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.13)  24 APR 2015 09:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.13)  24 APR 2015 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -615,34 +615,21 @@ Package: cite 2010/09/10  v 5.3
 \f@ncyO@olf=\skip68
 \f@ncyO@orf=\skip69
 )
-(build/document.aux
-
-LaTeX Warning: Label `purityEqn' multiply defined.
-
-
-LaTeX Warning: Label `modes' multiply defined.
-
-
-LaTeX Warning: Label `crossCompare' multiply defined.
-
-
-LaTeX Warning: Label `crossCompare' multiply defined.
-
-)
+(build/document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
 \c@lstlisting=\count165
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
@@ -717,28 +704,46 @@ Package caption Info: End \AtBeginDocument code.
 <img/uob-logo.png, id=1, 236.885pt x 69.25874pt>
 File: img/uob-logo.png Graphic file (type png)
  <use img/uob-logo.png>
-Package pdftex.def Info: img/uob-logo.png used on input line 54.
+Package pdftex.def Info: img/uob-logo.png used on input line 69.
 (pdftex.def)             Requested size: 142.13208pt x 41.55556pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--73
+Underfull \hbox (badness 10000) in paragraph at lines 78--88
 
  []
 
 <img/nsqi.jpg, id=2, 602.25pt x 338.26375pt>
 File: img/nsqi.jpg Graphic file (type jpg)
  <use img/nsqi.jpg>
-Package pdftex.def Info: img/nsqi.jpg used on input line 74.
+Package pdftex.def Info: img/nsqi.jpg used on input line 89.
 (pdftex.def)             Requested size: 421.57211pt x 236.78299pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/uob-logo.png> <./img
 /nsqi.jpg>]
-[1] [2] (build/document.toc)
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--140
+
+ []
+
+[2] (build/document.toc)
 \tf@toc=\write3
 \openout3 = `document.toc'.
 
@@ -757,14 +762,14 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<img/theory/loqc.pdf, id=28, 401.67792pt x 184.54837pt>
+<img/theory/loqc.pdf, id=27, 401.67792pt x 184.54837pt>
 File: img/theory/loqc.pdf Graphic file (type pdf)
 
 <use img/theory/loqc.pdf>
 Package pdftex.def Info: img/theory/loqc.pdf used on input line 26.
 (pdftex.def)             Requested size: 341.43306pt x 156.87529pt.
  [5 <./img/theory/loqc.pdf>] [6] [7] [8] [9]
-<res/theory/js_original.pdf, id=60, 926.46124pt x 214.8025pt> [10]
+<res/theory/js_original.pdf, id=61, 926.46124pt x 214.8025pt> [10]
 File: res/theory/js_original.pdf Graphic file (type pdf)
 
 <use res/theory/js_original.pdf>
@@ -775,14 +780,14 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 219--220
  [][] 
  []
 
-<res/theory/purityError.pdf, id=64, 728.7225pt x 288.07625pt>
+<res/theory/purityError.pdf, id=65, 728.7225pt x 288.07625pt>
 File: res/theory/purityError.pdf Graphic file (type pdf)
 
 <use res/theory/purityError.pdf>
 Package pdftex.def Info: res/theory/purityError.pdf used on input line 227.
 (pdftex.def)             Requested size: 455.24408pt x 179.96368pt.
 
-<res/theory/js_noise.pdf, id=65, 926.46124pt x 214.8025pt>
+<res/theory/js_noise.pdf, id=66, 926.46124pt x 214.8025pt>
 File: res/theory/js_noise.pdf Graphic file (type pdf)
 
 <use res/theory/js_noise.pdf>
@@ -794,14 +799,14 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 233--234
  []
 
 [11 <./res/theory/js_original.pdf> <./res/theory/purityError.pdf>]
-<res/theory/zoomGraph.pdf, id=105, 654.445pt x 321.2pt>
+<res/theory/zoomGraph.pdf, id=106, 654.445pt x 321.2pt>
 File: res/theory/zoomGraph.pdf Graphic file (type pdf)
 
 <use res/theory/zoomGraph.pdf>
 Package pdftex.def Info: res/theory/zoomGraph.pdf used on input line 240.
 (pdftex.def)             Requested size: 341.43306pt x 167.57388pt.
  [12 <./res/theory/js_noise.pdf> <./res/theory/zoomGraph.pdf>]
-<img/theory/ringTransmission.pdf, id=154, 427.5975pt x 428.60126pt>
+<img/theory/ringTransmission.pdf, id=155, 427.5975pt x 428.60126pt>
 File: img/theory/ringTransmission.pdf Graphic file (type pdf)
 
 <use img/theory/ringTransmission.pdf>
@@ -809,14 +814,14 @@ Package pdftex.def Info: img/theory/ringTransmission.pdf used on input line 256
 .
 (pdftex.def)             Requested size: 256.0748pt x 256.67224pt.
 
-<img/theory/ring.pdf, id=155, 305.35115pt x 262.417pt>
+<img/theory/ring.pdf, id=156, 305.35115pt x 262.417pt>
 File: img/theory/ring.pdf Graphic file (type pdf)
 
 <use img/theory/ring.pdf>
 Package pdftex.def Info: img/theory/ring.pdf used on input line 265.
 (pdftex.def)             Requested size: 256.0748pt x 220.0724pt.
  [13 <./img/theory/ringTransmission.pdf> <./img/theory/ring.pdf>] <img/theory/c
-oupling.pdf, id=184, 598.235pt x 254.9525pt>
+oupling.pdf, id=185, 598.235pt x 254.9525pt>
 File: img/theory/coupling.pdf Graphic file (type pdf)
 
 <use img/theory/coupling.pdf>
@@ -828,129 +833,125 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 298--302
  []
 
 [14 <./img/theory/coupling.pdf>]) (./tex/method.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 [15]
-<img/method/chipPictures/redLaser_aboveChip.jpg, id=200, 1284.8pt x 1027.84pt>
+<img/method/chipPictures/redLaser_aboveChip.jpg, id=201, 1284.8pt x 1027.84pt>
 File: img/method/chipPictures/redLaser_aboveChip.jpg Graphic file (type jpg)
 
 <use img/method/chipPictures/redLaser_aboveChip.jpg>
 Package pdftex.def Info: img/method/chipPictures/redLaser_aboveChip.jpg used on
- input line 7.
+ input line 8.
 (pdftex.def)             Requested size: 150.79968pt x 120.63791pt.
 
-<img/method/chipPictures/redLaser_coupled.jpg, id=201, 1284.8pt x 1027.84pt>
+<img/method/chipPictures/redLaser_coupled.jpg, id=202, 1284.8pt x 1027.84pt>
 File: img/method/chipPictures/redLaser_coupled.jpg Graphic file (type jpg)
 
 <use img/method/chipPictures/redLaser_coupled.jpg>
 Package pdftex.def Info: img/method/chipPictures/redLaser_coupled.jpg used on i
-nput line 8.
+nput line 9.
 (pdftex.def)             Requested size: 150.79968pt x 120.63791pt.
 
-<img/method/chipPictures/redLaser_belowChip.jpg, id=202, 1284.8pt x 1027.84pt>
+<img/method/chipPictures/redLaser_belowChip.jpg, id=203, 1284.8pt x 1027.84pt>
 File: img/method/chipPictures/redLaser_belowChip.jpg Graphic file (type jpg)
 
 <use img/method/chipPictures/redLaser_belowChip.jpg>
 Package pdftex.def Info: img/method/chipPictures/redLaser_belowChip.jpg used on
- input line 9.
+ input line 10.
 (pdftex.def)             Requested size: 150.79968pt x 120.63791pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
 
-<img/method/chipPictures/verticalCouplingTopView.png, id=203, 1284.8pt x 1027.8
+<img/method/chipPictures/verticalCouplingTopView.png, id=204, 1284.8pt x 1027.8
 4pt>
 File: img/method/chipPictures/verticalCouplingTopView.png Graphic file (type pn
 g)
  <use img/method/chipPictures/verticalCouplingTopView.png>
 Package pdftex.def Info: img/method/chipPictures/verticalCouplingTopView.png us
-ed on input line 19.
+ed on input line 20.
 (pdftex.def)             Requested size: 199.16928pt x 159.32924pt.
 
-<img/method/chipPictures/verticalCouplingSideView.png, id=205, 1284.8pt x 1027.
+<img/method/chipPictures/verticalCouplingSideView.png, id=206, 1284.8pt x 1027.
 84pt>
 File: img/method/chipPictures/verticalCouplingSideView.png Graphic file (type p
 ng)
  <use img/method/chipPictures/verticalCouplingSideView.png>
 Package pdftex.def Info: img/method/chipPictures/verticalCouplingSideView.png u
-sed on input line 20.
+sed on input line 21.
 (pdftex.def)             Requested size: 199.16928pt x 159.32924pt.
  [16 <./img/method/chipPictures/redLaser_aboveChip.jpg> <./img/method/chipPictu
 res/redLaser_coupled.jpg> <./img/method/chipPictures/redLaser_belowChip.jpg> <.
 /img/method/chipPictures/verticalCouplingTopView.png> <./img/method/chipPicture
-s/verticalCouplingSideView.png>] <img/method/setup_1.pdf, id=210, 624.4184pt x 
+s/verticalCouplingSideView.png>] <img/method/setup_1.pdf, id=211, 624.4184pt x 
 162.86462pt>
 File: img/method/setup_1.pdf Graphic file (type pdf)
 
 <use img/method/setup_1.pdf>
-Package pdftex.def Info: img/method/setup_1.pdf used on input line 33.
+Package pdftex.def Info: img/method/setup_1.pdf used on input line 34.
 (pdftex.def)             Requested size: 512.1496pt x 133.5896pt.
 
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 33--34
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
-<img/method/aSiBigPicture.pdf, id=211, 625.33624pt x 413.545pt>
+<img/method/aSiBigPicture.pdf, id=212, 625.33624pt x 413.545pt>
 File: img/method/aSiBigPicture.pdf Graphic file (type pdf)
 
 <use img/method/aSiBigPicture.pdf>
-Package pdftex.def Info: img/method/aSiBigPicture.pdf used on input line 44.
+Package pdftex.def Info: img/method/aSiBigPicture.pdf used on input line 45.
 (pdftex.def)             Requested size: 512.1496pt x 338.69891pt.
 
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 44--45
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
-[17 <./img/method/setup_1.pdf>]
-<img/method/glassgowChipNumbering.png, id=225, 1005.7575pt x 835.12pt>
+[17 <./img/method/setup_1.pdf>] [18 <./img/method/aSiBigPicture.pdf>]
+<img/method/setup_2.pdf, id=247, 620.38403pt x 230.71727pt>
+File: img/method/setup_2.pdf Graphic file (type pdf)
+
+<use img/method/setup_2.pdf>
+Package pdftex.def Info: img/method/setup_2.pdf used on input line 80.
+(pdftex.def)             Requested size: 512.1496pt x 190.4673pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 80--81
+ [] 
+ []
+
+<img/method/setup_3.pdf, id=248, 667.60623pt x 230.71727pt>
+File: img/method/setup_3.pdf Graphic file (type pdf)
+
+<use img/method/setup_3.pdf>
+Package pdftex.def Info: img/method/setup_3.pdf used on input line 90.
+(pdftex.def)             Requested size: 512.1496pt x 177.00156pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
+
+[19 <./img/method/setup_2.pdf>]
+<img/method/glassgowChipNumbering.png, id=270, 1005.7575pt x 835.12pt>
 File: img/method/glassgowChipNumbering.png Graphic file (type png)
 
 <use img/method/glassgowChipNumbering.png>
 Package pdftex.def Info: img/method/glassgowChipNumbering.png used on input lin
-e 59.
+e 122.
 (pdftex.def)             Requested size: 284.52756pt x 236.25314pt.
- [18 <./img/method/aSiBigPicture.pdf>]
-<img/method/chipPictures/exampleASIRing.png, id=247, 344.28625pt x 341.275pt>
+
+<img/method/chipPictures/exampleASIRing.png, id=271, 344.28625pt x 341.275pt>
 File: img/method/chipPictures/exampleASIRing.png Graphic file (type png)
 
 <use img/method/chipPictures/exampleASIRing.png>
 Package pdftex.def Info: img/method/chipPictures/exampleASIRing.png used on inp
-ut line 66.
+ut line 129.
 (pdftex.def)             Requested size: 284.52756pt x 282.03963pt.
-
-<img/method/setup_2.pdf, id=248, 620.38403pt x 230.71727pt>
-File: img/method/setup_2.pdf Graphic file (type pdf)
-
-<use img/method/setup_2.pdf>
-Package pdftex.def Info: img/method/setup_2.pdf used on input line 74.
-(pdftex.def)             Requested size: 512.1496pt x 190.4673pt.
-
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 74--75
- [][] 
- []
-
-[19 <./img/method/glassgowChipNumbering.png> <./img/method/chipPictures/example
-ASIRing.png>] <img/method/setup_3.pdf, id=254, 667.60623pt x 230.71727pt>
-File: img/method/setup_3.pdf Graphic file (type pdf)
-
-<use img/method/setup_3.pdf>
-Package pdftex.def Info: img/method/setup_3.pdf used on input line 80.
-(pdftex.def)             Requested size: 512.1496pt x 177.00156pt.
-
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 80--81
- [][] 
- []
-
-) (./tex/results.tex [20 <./img/method/setup_2.pdf> <./img/method/setup_3.pdf
-
-pdfTeX warning: pdflatex (file ./img/method/setup_3.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
->]
-</home/luka/Dropbox/cqp/report/thesis/res/glassgow/C17/graph.pdf, id=292, 566.1
+ [20 <./img/method/setup_3.pdf> <./img/method/glassgowChipNumbering.png>]) (./t
+ex/results.tex [21 <./img/method/chipPictures/exampleASIRing.png>]
+</home/luka/Dropbox/cqp/report/thesis/res/glassgow/C17/graph.pdf, id=297, 566.1
 15pt x 413.545pt>
 File: /home/luka/Dropbox/cqp/report/thesis/res/glassgow/C17/graph.pdf Graphic f
 ile (type pdf)
@@ -959,8 +960,8 @@ ile (type pdf)
 Package pdftex.def Info: /home/luka/Dropbox/cqp/report/thesis/res/glassgow/C17/
 graph.pdf used on input line 18.
 (pdftex.def)             Requested size: 426.79134pt x 311.7797pt.
- [21 </home/luka/Dropbox/cqp/report/thesis/res/glassgow/C17/graph.pdf>]
-</home/luka/Dropbox/cqp/report/thesis/res/glassgow/C21/c21graph.pdf, id=321, 56
+ [22 </home/luka/Dropbox/cqp/report/thesis/res/glassgow/C17/graph.pdf>]
+</home/luka/Dropbox/cqp/report/thesis/res/glassgow/C21/c21graph.pdf, id=326, 56
 6.115pt x 413.545pt>
 File: /home/luka/Dropbox/cqp/report/thesis/res/glassgow/C21/c21graph.pdf Graphi
 c file (type pdf)
@@ -970,8 +971,8 @@ Package pdftex.def Info: /home/luka/Dropbox/cqp/report/thesis/res/glassgow/C21/
 c21graph.pdf used on input line 33.
 (pdftex.def)             Requested size: 426.79134pt x 311.7797pt.
 
-</home/luka/Dropbox/cqp/report/thesis/res/glassgow/B32/graph.pdf, id=322, 566.1
-15pt x 413.545pt> [22 </home/luka/Dropbox/cqp/report/thesis/res/glassgow/C21/c2
+</home/luka/Dropbox/cqp/report/thesis/res/glassgow/B32/graph.pdf, id=327, 566.1
+15pt x 413.545pt> [23 </home/luka/Dropbox/cqp/report/thesis/res/glassgow/C21/c2
 1graph.pdf>]
 File: /home/luka/Dropbox/cqp/report/thesis/res/glassgow/B32/graph.pdf Graphic f
 ile (type pdf)
@@ -986,7 +987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--54
  []
 
 
-</home/luka/Dropbox/cqp/report/thesis/res/asi/graph.pdf, id=352, 653.44125pt x 
+</home/luka/Dropbox/cqp/report/thesis/res/asi/graph.pdf, id=357, 653.44125pt x 
 621.32124pt>
 File: /home/luka/Dropbox/cqp/report/thesis/res/asi/graph.pdf Graphic file (type
  pdf)
@@ -995,9 +996,9 @@ Package pdftex.def Info: /home/luka/Dropbox/cqp/report/thesis/res/asi/graph.pdf
  used on input line 63.
 (pdftex.def)             Requested size: 455.24408pt x 432.86462pt.
 
-[23 </home/luka/Dropbox/cqp/report/thesis/res/glassgow/B32/graph.pdf>])
-(./tex/discussion.tex [24 </home/luka/Dropbox/cqp/report/thesis/res/asi/graph.p
-df>]) (./tex/conclusion.tex [25]) [26] (build/document.bbl
+[24 </home/luka/Dropbox/cqp/report/thesis/res/glassgow/B32/graph.pdf>])
+(./tex/discussion.tex [25 </home/luka/Dropbox/cqp/report/thesis/res/asi/graph.p
+df>]) (./tex/conclusion.tex [26]) [27] (build/document.bbl
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no â in font cmr10!
@@ -1008,56 +1009,53 @@ Missing character: There is no ≥ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [27]) [28]
-(./tex/appendix_01.tex [29]
+ [28]) [29]
+(./tex/appendix_01.tex [30]
 
-LaTeX Warning: Citation `trace' on page 30 undefined on input line 43.
+LaTeX Warning: Citation `trace' on page 31 undefined on input line 43.
 
-) (./tex/appendix_02.tex [30]) (./tex/appendix_03.tex [31]
+) (./tex/appendix_02.tex [31]) (./tex/appendix_03.tex [32]
 Overfull \hbox (8.71207pt too wide) detected at line 158
 [][] \OT1/cmr/m/n/10.95 = []
  []
 
-[32]) [33] (build/document.aux)
+[33]) [34] (build/document.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 13095 strings out of 494985
- 268470 string characters out of 6180355
- 285005 words of memory out of 5000000
- 16062 multiletter control sequences out of 15000+600000
+ 13161 strings out of 494985
+ 269175 string characters out of 6180355
+ 285010 words of memory out of 5000000
+ 16128 multiletter control sequences out of 15000+600000
  15351 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,10n,49p,10420b,978s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,49p,10420b,1014s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on build/document.pdf (34 pages, 3809178 bytes).
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb>
+Output written on build/document.pdf (35 pages, 3817363 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
+ 533 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

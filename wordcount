@@ -1,16 +1,16 @@
 File: document.tex
-Encoding: ascii
-Words in text: 47
+Encoding: utf8
+Words in text: 303
 Words in headers: 11
 Words outside text (captions, etc.): 0
 Number of headers: 3
-Number of floats/tables/figures: 0
+Number of floats/tables/figures: 1
 Number of math inlines: 0
 Number of math displayed: 0
 
 File: tex/conclusion.tex
 Encoding: ascii
-Words in text: 1
+Words in text: 0
 Words in headers: 1
 Words outside text (captions, etc.): 0
 Number of headers: 1
@@ -40,20 +40,17 @@ Number of math displayed: 0
 
 File: tex/method.tex
 Encoding: ascii
-Words in text: 542
-Words in headers: 10
+Words in text: 825
+Words in headers: 3
 Words outside text (captions, etc.): 0
-Number of headers: 5
+Number of headers: 2
 Number of floats/tables/figures: 0
-Number of math inlines: 1
+Number of math inlines: 0
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  455+1+0 (1/0/0/0) Section: Method
+  805+1+0 (1/0/0/0) Section: Method
   20+2+0 (1/0/0/0) Subsection: Joint Spectrum
-  67+5+0 (1/0/0/0) Subsection: What experiments can be done?
-  0+0+0 (1/0/1/0) Subsection: $g^{(2)}(0)$
-  0+2+0 (1/0/0/0) Subsection: Analysing Data
 
 File: tex/results.tex
 Encoding: ascii
@@ -93,21 +90,21 @@ Subcounts:
   0+5+0 (1/0/0/0) Subsection: What experiments can be done?
 
 Total
-Words in text: 5478
-Words in headers: 76
+Words in text: 6016
+Words in headers: 69
 Words outside text (captions, etc.): 0
-Number of headers: 25
-Number of floats/tables/figures: 0
-Number of math inlines: 100
+Number of headers: 22
+Number of floats/tables/figures: 1
+Number of math inlines: 99
 Number of math displayed: 31
 Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  47+11+0 (3/0/0/0) File(s) total: document.tex
-  1+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
+  303+11+0 (3/1/0/0) File(s) total: document.tex
+  0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
   0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
   478+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
-  542+10+0 (5/0/1/0) File(s) total: tex/method.tex
+  825+3+0 (2/0/0/0) File(s) total: tex/method.tex
   808+3+0 (3/0/17/0) File(s) total: tex/results.tex
   3602+49+0 (11/0/82/31) File(s) total: tex/theory.tex
 
