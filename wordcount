@@ -30,7 +30,7 @@ Number of math displayed: 0
 
 File: tex/introduction.tex
 Encoding: ascii
-Words in text: 474
+Words in text: 478
 Words in headers: 1
 Words outside text (captions, etc.): 0
 Number of headers: 1
@@ -40,19 +40,16 @@ Number of math displayed: 0
 
 File: tex/method.tex
 Encoding: ascii
-Words in text: 204
-Words in headers: 19
+Words in text: 542
+Words in headers: 10
 Words outside text (captions, etc.): 0
-Number of headers: 11
+Number of headers: 5
 Number of floats/tables/figures: 0
 Number of math inlines: 1
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  91+1+0 (1/0/0/0) Section: Method
-  11+3+0 (1/0/0/0) Subsection: Collecting a JSI
-  15+5+0 (4/0/0/0) Subsection: Silicon Chips
-  0+1+0 (1/0/0/0) Subsection: Coupling
+  455+1+0 (1/0/0/0) Section: Method
   20+2+0 (1/0/0/0) Subsection: Joint Spectrum
   67+5+0 (1/0/0/0) Subsection: What experiments can be done?
   0+0+0 (1/0/1/0) Subsection: $g^{(2)}(0)$
@@ -61,9 +58,9 @@ Subcounts:
 File: tex/results.tex
 Encoding: ascii
 Words in text: 808
-Words in headers: 10
+Words in headers: 3
 Words outside text (captions, etc.): 0
-Number of headers: 7
+Number of headers: 3
 Number of floats/tables/figures: 0
 Number of math inlines: 17
 Number of math displayed: 0
@@ -72,45 +69,45 @@ Subcounts:
   0+1+0 (1/0/0/0) Section: Results
   806+1+0 (1/0/17/0) Subsection: Glassgow
   2+1+0 (1/0/0/0) Subsection: a-Si
-  0+7+0 (4/0/0/0) Subsection: Toshiba
 
 File: tex/theory.tex
 Encoding: utf8
-Words in text: 2524
-Words in headers: 38
+Words in text: 3602
+Words in headers: 49
 Words outside text (captions, etc.): 0
-Number of headers: 9
+Number of headers: 11
 Number of floats/tables/figures: 0
-Number of math inlines: 65
-Number of math displayed: 24
+Number of math inlines: 82
+Number of math displayed: 31
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+4+0 (1/0/0/0) Section: Detailed Background and Theory
-  371+8+0 (1/0/11/1) Subsection: From Feynman to the linear optical quantum computer
-  511+3+0 (1/0/6/1) Subsection: Generating single photons
-  754+6+0 (1/0/23/17) Subsection: Four wave mixing in silicon waveguides
-  590+2+0 (1/0/22/5) Subsection: Ring Resonators
+  367+8+0 (1/0/11/1) Subsection: From Feynman to the linear optical quantum computer
+  605+3+0 (1/0/6/1) Subsection: Generating single photons
+  873+6+0 (1/0/24/17) Subsection: Four wave mixing in silicon waveguides
+  796+7+0 (2/0/13/6) Subsection: Analysis of the JSI
+  590+2+0 (1/0/22/5) Subsection: Ring Resonators} \label{resSect
   297+1+0 (1/0/3/0) Subsection: Bistability
-  1+7+0 (1/0/0/0) Subsection: Characterisation of quantum processes with classical techniques
-  0+4+0 (1/0/0/0) Subsection: Schmidt Rank and Purity
-  0+3+0 (1/0/0/0) Subsection: Self phase modulation
+  74+7+0 (1/0/3/1) Subsection: Characterisation of quantum processes with classical techniques} \label{marcoStuff
+  0+6+0 (1/0/0/0) Subsection: Alternative methods of finding the purity
+  0+5+0 (1/0/0/0) Subsection: What experiments can be done?
 
 Total
-Words in text: 4058
-Words in headers: 81
+Words in text: 5478
+Words in headers: 76
 Words outside text (captions, etc.): 0
-Number of headers: 33
+Number of headers: 25
 Number of floats/tables/figures: 0
-Number of math inlines: 83
-Number of math displayed: 24
+Number of math inlines: 100
+Number of math displayed: 31
 Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   47+11+0 (3/0/0/0) File(s) total: document.tex
   1+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
   0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
-  474+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
-  204+19+0 (11/0/1/0) File(s) total: tex/method.tex
-  808+10+0 (7/0/17/0) File(s) total: tex/results.tex
-  2524+38+0 (9/0/65/24) File(s) total: tex/theory.tex
+  478+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
+  542+10+0 (5/0/1/0) File(s) total: tex/method.tex
+  808+3+0 (3/0/17/0) File(s) total: tex/results.tex
+  3602+49+0 (11/0/82/31) File(s) total: tex/theory.tex
 

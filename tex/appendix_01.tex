@@ -40,7 +40,7 @@ In the lab we can measure $|\phi(\omega_1,\omega_2)|^2$, here I outline how to e
 ({\bf f}^{\dagger}{\bf f})^2&=\sum_{\omega_1,\omega_2,\omega_3,\omega_4,\omega_5,\omega_6}\phi(\omega_1,\omega_2)\phi(\omega_3,\omega_2)\phi(\omega_3,\omega_5)\phi(\omega_6,\omega_5)|\omega_1\rangle\langle\omega_6|\\
 \Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]&=\sum_{\omega_1,\omega_2,\omega_3,\omega_4}\phi(\omega_1,\omega_2)\phi(\omega_3,\omega_2)\phi(\omega_3,\omega_4)\phi(\omega_1,\omega_4)
 \end{align}
-I've done it this way because I wanted to figure out where the equation in \cite{eckstein_high-resolution_2014} comes from. You can now see that equation \ref{theShit} is of exactly the same form as $\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]$ (barring the conjugates but this is okay since $\phi$ is real.) Taking the parallel further it can be seen that equation \ref{rhoA} is of the form of a reduced density matrix. Here we must make sure to normalise to make sure this is a valid reduced density matrix. The normalisation is:
+I've done it this way because I wanted to figure out where the equation in \cite{trace} comes from. You can now see that equation \ref{theShit} is of exactly the same form as $\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]$ (barring the conjugates but this is okay since $\phi$ is real.) Taking the parallel further it can be seen that equation \ref{rhoA} is of the form of a reduced density matrix. Here we must make sure to normalise to make sure this is a valid reduced density matrix. The normalisation is:
 \begin{align}
 N = \Tr\left [{\bf f}^{\dagger}{\bf f} \right ]&=\sum_{\omega_1,\omega_2}\phi(\omega_1,\omega_2)^2
 \end{align}
@@ -51,4 +51,18 @@ Giving:
 We can then write:
 \begin{align}
 \frac{1}{K}=\frac{\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]}{\Tr\left [{\bf f}^{\dagger}{\bf f} \right ]^2}
+\end{align}
+\subsubsection{Alternate implementation with SVD decomposition} \label{svdAppendix}
+Taking the SVD decomposition of ${\bf f}$ gives:
+\begin{align}
+{\bf f}&=\sum_{i}|i\rangle s_i\langle i|
+\end{align}
+Where $s_i$ are the singular values. From wikipedia it turns out that $s_i^2$ are the eigenvalues of  ${\bf f}^{\dagger}{\bf f}$ which is also equal to the reduced density operator. Following the steps of the previous section then gives:
+\begin{align}
+{\bf f}^{\dagger}{\bf f}&=\sum_{i}|i\rangle s^2_i\langle i|\\
+({\bf f}^{\dagger}{\bf f})^2&=\sum_{i}|i\rangle s^4_i\langle i|
+\end{align}
+And so:
+\begin{align}
+\frac{1}{K}=\frac{\Tr\left [({\bf f}^{\dagger}{\bf f})^2 \right ]}{\Tr\left [{\bf f}^{\dagger}{\bf f} \right ]^2}=\frac{\sum_{i}s^4_i}{\left ( \sum_{j}s^2_j \right )^2}=\sum_{i}\left (\frac{s^2_i}{ \sum_{j}s_j^2 }\right )^2
 \end{align}
