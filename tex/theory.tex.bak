@@ -305,13 +305,12 @@ Where $\theta=kL=\frac{2\pi n_{eff}}{\lambda}L$. The analysis also finds the rel
 
 Figure \ref{coupling} shows the 3 main regimes that can be achieved by varying $r$ and $\tau$. The first is under-coupling, a typically undesirable set up where the ring loses more light than it recieves and hence performs low quality filtering. This looks identical to over-coupling where more light enters then ring than is lost. The fact that over and coupling look the same is an important point for later analysis, as when using a resonator as a single photon source, a small amount of over-coupling is desirable. 
 
-Critical coupling occurs when the loss within the ring is balanced with the amount of light coupling in ($r=\tau$) this gives a spectrum with the highest quaility factory, where we define quality factor[REF] as:
-%Jan Niehusmann, Andreas Vörckel, Peter H. Bolivar, Thorsten Wahlbrink, Wolfgang Henschel, and Heinrich Kurz. Ultrahigh-quality-factor silicon-on-insulator microringresonator. Opt. Lett.,29(24):2861–2863, December 2004.
+Critical coupling occurs when the loss within the ring is balanced with the amount of light coupling in ($r=\tau$) this gives a spectrum with the highest quaility factory, where we define quality factor\cite{niehusmann_ultrahigh-quality-factor_2004} as:
 \begin{equation}
 Q \approx \frac{2\pi L n_{eff}}{-\lambda \ln{r\tau}}
 \end{equation}
-
-This metric is useful for comparing rings. 
+\noindent
+This metric is useful for comparing, high quality factors are better for FWM. 
 
 \subsection{Bistability}
 %The bistability effect is based on the carrier generation induced by two-photon absorption
@@ -331,10 +330,21 @@ The theory to support this quantum measurement with classical techinques has bee
 \end{equation}
 Where $P_s$ is the input power of the seed laser used to amplify the quantum process and $\omega_p$ is the frequency of the laser which pumps the ring resonator and $Q$ is the quality of the ring (defined in section \ref{resSect}).
 
-\subsection{Alternative methods of finding the purity}
+\subsection{Using the $g^{(2)}(0)$ to measure the purity}
+In order to verify the purities one can calculate from joint spectrums an alternative method we here refer to as measuring the $g^{(2)}(0)$ can be used. The relation between the quantities is simply \cite{christ_probing_2011}: 
+\begin{equation} \label{g2Equation}
+	g^{(2)}(0) = 1 + P
+\end{equation}
 
-% G2 correlation function
-% single photon detectors
-% comparison to JSI method.
+So the two are interchanged frequently. The $g^{(2)}(0)$ measures the second order correlation between two photons. Looking at equation \ref{g2Equation} it is obvious that the ideal source would have $g^{(2)}(0)=2$ which is a thermal state. The method for calculating this is outlined in section \ref{g2method}. It involves taking either the signal or idler photon and interfering it with itself with a beam splitter. Two single photon detector measuring coincidences between detection events and the number of modes can be qualified, this is basically doing the experiment in the time domain instead of the frequency domain.
+
 
 \subsection{What experiments can be done?}
+Now that some methods and the underlying theory of calculating the purity of a bi-photon wavefunction have been laid out, it is interesting to discuss what sort of experiments can be performed on top of just measuring the JSI and calculating the purity. The main variables that one might want to vary are while recording a JSI are:
+\begin{itemize}
+	\item \textbf{Ring resonator geometry} - Values for $r,\tau,L,n_{eff}$ could be optimized for photon purity. 
+	\item \textbf{Input power} - As discussed above ring resonators respond to the amount of power due to non-linear effects. At high powers ring resonators lose some symmetry and hence the purity may decrease. Also at high powers more spectrally impure photons are generated in the straight waveguide. 
+	\item \textbf{Pump spectrum} - Ideally the pump would have an almost flat spectrum in the region of the resonance, but varying this and collecting JSIs would  be insightful. Very wide pumps might increase the straight waveguide photon production too much and hence reduce the purity, so an optimal pump spectrum may exist for each resonance. Using tunable filters this can be investigated.
+	\item \textbf{Pump overlap with resonator} - Having a misaligned pump has been shown to decrease the purity of these ring resonator sources. \cite{scammell_indistinguishable_2014}
+	\item 
+\end{itemize}

@@ -32,7 +32,7 @@ To begin the process for collecting a joint spectrum, the set up is arranged as 
 \begingroup
     \centering  
     \includegraphics[width=18cm]{img/method/setup_1.pdf}
-    \captionof{figure}{Glassgow test structure chip}
+    \captionof{figure}{The minimum set up to record a joint spectrum of silicon chip. The two lasers are muxed via the DWDM, their combined power is recorded via the first power meter and they are injected into the chip via a lense fiber. The optical spectrum analyser records a slice of the joint spectrum and a power meter records the power coming out of the chip. The temperature controller maintains a steady temperature ensuring minimum movement of the ring resonance position and optimum coupling position.}
      \vspace{3pt} \label{simpleJSI}
 \endgroup
 
@@ -43,7 +43,7 @@ Figure \ref{aSiBigPicture} is a key illustration of this experiment. With the pu
 \begingroup
     \centering  
     \includegraphics[width=18cm]{img/method/aSiBigPicture.pdf}
-    \captionof{figure}{A illustrative example which showing the whole experiment. }
+    \captionof{figure}{A illustrative example showing the whole experiment. }
      \vspace{3pt} \label{aSiBigPicture}
 \endgroup
 
@@ -67,45 +67,40 @@ We now summarise the experimental procedure:
 	\item Optimize coupling on both input and output lense fibers
 	\item Optimize the polarisation of both input lasers
 	\item Temperature tune the resonances to align with the filter channels
-	\item Take spectral scans and record initial state
-	\item Launch the jointSpectrum program which increments the CW laser wavelength and collects OSA spectrums in series. This program also collects some spectrums without the CW laser on for removal of noise.
+	\item Take a spectral scan with \lstinline$spectralScan$
+	\item Launch the \lstinline$jointSpectrum$ program which increments the CW laser wavelength and collects OSA spectrums in series. This program also collects some spectrums without the CW laser on for removal of noise.
 \end{itemize}
 
-\subsection{Collecting JSI's for varying power}
-
-
+\subsection{Collecting JSI's for varying power} \label{powerScan}
+One parameter that it is insightful to vary is the power of the pump laser, figure \ref{bigJSIExp} shows how this was implemented. The tunable filter must follow the CW laser as it changes wavelength, it's filter size should be set to minimum to minimise noise.
+\newline
 
 \begingroup
     \centering  
     \includegraphics[width=18cm]{img/method/setup_2.pdf}
-    \captionof{figure}{big experiment}
+    \captionof{figure}{Similar to figure \ref{simpleJSI} but now with the ability of amplify and attenuate the pulsed laser. Furthermore the CW laser has its own dedicated filter allowing it to scan a greater range.}
      \vspace{3pt} \label{bigJSIExp}
 \endgroup
 
-
-
-
+\subsection{Finding the $g^{(2)}(0)$} \label{g2method}
+This experiment uses a completely different method to find the $g^{(2)}(0)$ which is strongly related to the purity. Here the pulsed laser is simply injected into the ring resonator and one of the photons from the generated photon pairs are inputted into a beam splitter or 50:50 coupler. The outputs are then fed into SNSPD's (Superconducting nanowire single-photon detectors) which can detect single photons. The coincidences between these detection events can be used to calculate the $g^{(2)}(0)$.
 \begingroup
     \centering  
     \includegraphics[width=18cm]{img/method/setup_3.pdf}
     \captionof{figure}{single photon}
-     \vspace{3pt} \label{crossCompare3}
+     \vspace{3pt} \label{g2Exp}
 \endgroup
 
-% Side/Vertical coupling
-% Coupling loss
-% Blowing up chips -> tempted to add this as a complaint
-%	Particularly on glassgow chip
-% Temperature tuning
+\subsection{JSI filtering}
+The filtering methods:
+\begin{itemize}
+	\item \textbf{Background noise subtraction} - The background level of noise is found with a scan with the CW laser off, this is subtracted from the data and negative values are zeroed.
+	\item \textbf{CW noise removal} - When the CW laser is of resonance the noise level increases, leaving noise with a resonance like shape. This is subtracted away and again negative values are set to zero.
+	\item \textbf{AWG Channel convolution} - Because the JSI data is intended for comparison with the $g^{(2)}(0)$ experiment, which has an extra AWG channel at the chip output, we apply that filtering to the data to try and accurately match the datasets. 
+		\item \textbf{SVD Mode cleaning} -  Calculating the purity of the JSI's involves splitting the data into separable components, many of these are just noise and so are removed. This increases the purity calculated and hence care is required that not too many modes are removed.  Here we have retained the first 10 modes as they contain some information about biphoton wavefunction while the others are just noise.
+\end{itemize}
 
 
-
-\subsection{Joint Spectrum}
-Take the convention that the {\bf signal} photon is the one we measure and the {\bf idler} is the one we stimulate.
-% OSA Resolution discussion might be important. Because I think it might have skrewed me over somewhat.
-% Filtering
-% Could reference the model so that I don't have to use example data.
-% Breif description of how this works.
 % The algortihm reflects how using narrow filters increases the purity well
 % SNR
 % NOISE
@@ -117,16 +112,3 @@ Take the convention that the {\bf signal} photon is the one we measure and the {
 
 % I want to really discuss what we can hope to keep constant and what we can vary. Where you need to really do som engineering to get insights.
 
-\begingroup
-    \centering  
-    \includegraphics[width=10cm]{img/method/glassgowChipNumbering.png}
-    \captionof{figure}{Glassgow test structure chip}
-     \vspace{3pt} \label{crossCompare1}
-\endgroup
-
-\begingroup
-    \centering  
-    \includegraphics[width=10cm]{img/method/chipPictures/exampleASIRing.png}
-    \captionof{figure}{Glassgow test structure chip}
-     \vspace{3pt} \label{crossCompare2}
-\endgroup

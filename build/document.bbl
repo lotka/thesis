@@ -71,6 +71,12 @@ Georg Harder, Vahid Ansari, Benjamin Brecht, Thomas Dirmeier, Christoph
 \newblock An optimized photon pair source for quantum circuits.
 \newblock {\em Opt. Express}, 21(12):13975--13985, June 2013.
 
+\bibitem{niehusmann_ultrahigh-quality-factor_2004}
+Jan Niehusmann, Andreas Vörckel, Peter~Haring Bolivar, Thorsten Wahlbrink,
+  Wolfgang Henschel, and Heinrich Kurz.
+\newblock Ultrahigh-quality-factor silicon-on-insulator microringresonator.
+\newblock {\em Opt. Lett.}, 29(24):2861--2863, December 2004.
+
 \bibitem{almeida_optical_2004-1}
 Vilson~R. Almeida and Michal Lipson.
 \newblock Optical bistability on a silicon chip.
@@ -88,6 +94,13 @@ Stefano Azzini, Davide Grassani, Matteo Galli, Lucio~Claudio Andreani, Marc
 \newblock From classical four-wave mixing to parametric fluorescence in silicon
   microring resonators.
 \newblock {\em Opt. Lett.}, 37(18):3807--3809, September 2012.
+
+\bibitem{christ_probing_2011}
+Andreas Christ, Kaisa Laiho, Andreas Eckstein, Katiúscia~N. Cassemiro, and
+  Christine Silberhorn.
+\newblock Probing multimode squeezing with correlation functions.
+\newblock {\em New Journal of Physics}, 13(3):033027, March 2011.
+\newblock arXiv: 1012.0262.
 
 \bibitem{scammell_indistinguishable_2014}
 Eric Scammell.

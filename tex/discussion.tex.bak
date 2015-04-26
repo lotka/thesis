@@ -1,8 +1,28 @@
 \newpage
 \section{Discussion}
+\subsection{Discussion of Results}
+We have shown it is possible to collect the joint spectral intensity of photons generated in silicon ring resonators and to use this information to gain information about the seperability of the biphoton wavefunction. Here we discuss first the developed method, drawing on the experience gained from the results. Then the two data sets are discussed and compared, finally future work is mapped out.
+\subsubsection{Noise filtering}
+The main issue with filtering noisy JSI measurements is that it can dramatically change the purities depending on how it is done. The easiest way to negate this issue is to run the experiments for longer, hence reducing noise and to repeat them in order to reduce uncertainty. Otherwise care must be taken to make sure the filtering is not introducing further structure into the data.
+
+\subsubsection{Validity of method}
+\subsubsection{Glassgow chip}
+The joint spectrums collected from the glassgow chip show a variety of interesting features which would not have been discernible using the $g^{(2)}(0)$ method. It is observed that the photons generating in the straight waveguide and the ring resonators actually interfere with each other introducing further structure into the wavefunction. This suggests that the straight waveguide contribution should be reduced by either placing the ring resonators sources as close to the start of the linear optical circuit as possible or by filtering. Filtering of course introduces lots of loss into the system and is hence undesirable. 
+\subsubsection{a-Si power scan}
+The filtering reduces the reliability of the data because it allows the experimenter to effectively change the purity by subtracting different noise levels, deleting more modes or even applying a Gaussian filter. This is a strong sign that these experiments must be repeated multiple times to be fully credible. Another solution would be to only take a few JSI measurements, but run them for a lot longer in order to increase the SNR dramatically. Then with the lowered error values the $g^{(2)}(0)$ measurement could be verified. 
+\subsubsection{Comparison of results}
+Comparing the a-Si and Glasgow experiment first shows that the SNR of the joint spectrum is an important quantity. In the a-Si experiment it was not possible to run the experiment at low enough VBW to get a high SNR. Also as it was performed with a more noisy amplified laser more noise and self phase modulation was introduced, making the need for complicated filtering greater. 
+
+
+
+
+
+\subsection{Future work}
+
+Hence to 
 % How bad is the filtering
 % How bad is it to throw away the phase information
 % Should have repeated more measurements
-% Glassgow B32 should have swapped the inputs man could have done some awesome stuff, meh
+% Glassgow B32 should have swapped the inputs man could have done some awesome stuff, meh, really??
 % the complications of a pwoer scan
 %

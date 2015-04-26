@@ -20,13 +20,18 @@ Number of math displayed: 0
 
 File: tex/discussion.tex
 Encoding: ascii
-Words in text: 0
-Words in headers: 1
+Words in text: 378
+Words in headers: 19
 Words outside text (captions, etc.): 0
-Number of headers: 1
+Number of headers: 8
 Number of floats/tables/figures: 0
-Number of math inlines: 0
+Number of math inlines: 2
 Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+1+0 (1/0/0/0) Section: Discussion
+  376+16+0 (6/0/2/0) Subsection: Discussion of Results
+  2+2+0 (1/0/0/0) Subsection: Future work
 
 File: tex/introduction.tex
 Encoding: ascii
@@ -40,42 +45,45 @@ Number of math displayed: 0
 
 File: tex/method.tex
 Encoding: ascii
-Words in text: 825
-Words in headers: 3
+Words in text: 1261
+Words in headers: 16
 Words outside text (captions, etc.): 0
-Number of headers: 2
+Number of headers: 5
 Number of floats/tables/figures: 0
-Number of math inlines: 0
+Number of math inlines: 6
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
-  805+1+0 (1/0/0/0) Section: Method
-  20+2+0 (1/0/0/0) Subsection: Joint Spectrum
+  0+1+0 (1/0/0/0) Section: Method
+  938+6+0 (1/0/2/0) Subsection: General method for collecting a JSI
+  76+5+0 (1/0/0/0) Subsection: Collecting JSI's for varying power} \label{powerScan
+  79+2+0 (1/0/3/0) Subsection: Finding the $g^{(2)}(0)$} \label{g2method
+  168+2+0 (1/0/1/0) Subsection: JSI filtering
 
 File: tex/results.tex
 Encoding: ascii
-Words in text: 808
+Words in text: 1341
 Words in headers: 3
 Words outside text (captions, etc.): 0
 Number of headers: 3
 Number of floats/tables/figures: 0
-Number of math inlines: 17
+Number of math inlines: 22
 Number of math displayed: 0
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+1+0 (1/0/0/0) Section: Results
-  806+1+0 (1/0/17/0) Subsection: Glassgow
-  2+1+0 (1/0/0/0) Subsection: a-Si
+  810+1+0 (1/0/17/0) Subsection: Glassgow
+  531+1+0 (1/0/5/0) Subsection: a-Si
 
 File: tex/theory.tex
 Encoding: utf8
-Words in text: 3602
+Words in text: 3855
 Words in headers: 49
 Words outside text (captions, etc.): 0
 Number of headers: 11
 Number of floats/tables/figures: 0
-Number of math inlines: 82
-Number of math displayed: 31
+Number of math inlines: 87
+Number of math displayed: 32
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   0+4+0 (1/0/0/0) Section: Detailed Background and Theory
@@ -83,28 +91,28 @@ Subcounts:
   605+3+0 (1/0/6/1) Subsection: Generating single photons
   873+6+0 (1/0/24/17) Subsection: Four wave mixing in silicon waveguides
   796+7+0 (2/0/13/6) Subsection: Analysis of the JSI
-  590+2+0 (1/0/22/5) Subsection: Ring Resonators} \label{resSect
+  595+2+0 (1/0/22/5) Subsection: Ring Resonators} \label{resSect
   297+1+0 (1/0/3/0) Subsection: Bistability
   74+7+0 (1/0/3/1) Subsection: Characterisation of quantum processes with classical techniques} \label{marcoStuff
-  0+6+0 (1/0/0/0) Subsection: Alternative methods of finding the purity
-  0+5+0 (1/0/0/0) Subsection: What experiments can be done?
+  64+6+0 (1/0/4/1) Subsection: Using the $g^{(2)}(0)$ to measure the purity
+  184+5+0 (1/0/1/0) Subsection: What experiments can be done?
 
 Total
-Words in text: 6016
-Words in headers: 69
+Words in text: 7616
+Words in headers: 100
 Words outside text (captions, etc.): 0
-Number of headers: 22
+Number of headers: 32
 Number of floats/tables/figures: 1
-Number of math inlines: 99
-Number of math displayed: 31
+Number of math inlines: 117
+Number of math displayed: 32
 Files: 7
 Subcounts:
   text+headers+captions (#headers/#floats/#inlines/#displayed)
   303+11+0 (3/1/0/0) File(s) total: document.tex
   0+1+0 (1/0/0/0) File(s) total: tex/conclusion.tex
-  0+1+0 (1/0/0/0) File(s) total: tex/discussion.tex
+  378+19+0 (8/0/2/0) File(s) total: tex/discussion.tex
   478+1+0 (1/0/0/0) File(s) total: tex/introduction.tex
-  825+3+0 (2/0/0/0) File(s) total: tex/method.tex
-  808+3+0 (3/0/17/0) File(s) total: tex/results.tex
-  3602+49+0 (11/0/82/31) File(s) total: tex/theory.tex
+  1261+16+0 (5/0/6/0) File(s) total: tex/method.tex
+  1341+3+0 (3/0/22/0) File(s) total: tex/results.tex
+  3855+49+0 (11/0/87/32) File(s) total: tex/theory.tex
 

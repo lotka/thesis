@@ -8,21 +8,29 @@
 \contentsline {subsection}{\numberline {2.5}Ring Resonators}{12}
 \contentsline {subsection}{\numberline {2.6}Bistability}{15}
 \contentsline {subsection}{\numberline {2.7}Characterisation of quantum processes with classical techniques}{15}
-\contentsline {subsection}{\numberline {2.8}Alternative methods of finding the purity}{16}
+\contentsline {subsection}{\numberline {2.8}Using the $g^{(2)}(0)$ to measure the purity}{15}
 \contentsline {subsection}{\numberline {2.9}What experiments can be done?}{16}
 \contentsline {section}{\numberline {3}Method}{16}
 \contentsline {subsection}{\numberline {3.1}General method for collecting a JSI}{16}
-\contentsline {subsection}{\numberline {3.2}Collecting JSI's for varying power}{19}
-\contentsline {subsection}{\numberline {3.3}Joint Spectrum}{20}
+\contentsline {subsection}{\numberline {3.2}Collecting JSI's for varying power}{20}
+\contentsline {subsection}{\numberline {3.3}Finding the $g^{(2)}(0)$}{21}
+\contentsline {subsection}{\numberline {3.4}JSI filtering}{21}
 \contentsline {section}{\numberline {4}Results}{22}
 \contentsline {subsection}{\numberline {4.1}Glassgow}{22}
 \contentsline {subsection}{\numberline {4.2}a-Si}{25}
-\contentsline {section}{\numberline {5}Discussion}{26}
-\contentsline {section}{\numberline {6}Conclusion}{27}
-\contentsline {section}{\numberline {A}Schmidt Number}{30}
-\contentsline {subsection}{\numberline {A.1}Definition}{30}
-\contentsline {subsection}{\numberline {A.2}Calculation from experimental data}{30}
-\contentsline {subsubsection}{\numberline {A.2.1}Trace method}{30}
-\contentsline {subsubsection}{\numberline {A.2.2}Alternate implementation with SVD decomposition}{31}
-\contentsline {section}{\numberline {B}Equipment Specifications}{32}
-\contentsline {section}{\numberline {C}Transfer matrix analysis of ring resonator cavities}{32}
+\contentsline {section}{\numberline {5}Discussion}{29}
+\contentsline {subsection}{\numberline {5.1}Discussion of Results}{29}
+\contentsline {subsubsection}{\numberline {5.1.1}Noise filtering}{29}
+\contentsline {subsubsection}{\numberline {5.1.2}Validity of method}{29}
+\contentsline {subsubsection}{\numberline {5.1.3}Glassgow chip}{29}
+\contentsline {subsubsection}{\numberline {5.1.4}a-Si power scan}{29}
+\contentsline {subsubsection}{\numberline {5.1.5}Comparison of results}{29}
+\contentsline {subsection}{\numberline {5.2}Future work}{29}
+\contentsline {section}{\numberline {6}Conclusion}{30}
+\contentsline {section}{\numberline {A}Schmidt Number}{33}
+\contentsline {subsection}{\numberline {A.1}Definition}{33}
+\contentsline {subsection}{\numberline {A.2}Calculation from experimental data}{33}
+\contentsline {subsubsection}{\numberline {A.2.1}Trace method}{33}
+\contentsline {subsubsection}{\numberline {A.2.2}Alternate implementation with SVD decomposition}{34}
+\contentsline {section}{\numberline {B}Transfer matrix analysis of ring resonator cavities}{35}
+\contentsline {section}{\numberline {C}Further experimental results}{38}

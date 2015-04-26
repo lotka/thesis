@@ -8,7 +8,14 @@
 \subsection{Glassgow}
 This chip was used to do an initial proof of concept that the JSI of a ring resonator could be measured at high resolution. Here the aim was to explore different ring geometries and develop an intuition on how to do the experiment. The Pritel pulsed laser was used with a pulse duration of \SI{2}{\pico\second}, a FWHM of \SI{1.0}{\nano\meter} with wavelength range \SI{1530}{\nano\meter} to \SI{1530}{\nano\meter} and a peak power of \SI{100}{\watt}. Due to the pulsed laser sometimes destroying the spot size converter on the chip a \SI{3}{\decibel} attenuator was added just after the laser output, this resulted in roughly about \SI{5}{\deci\bel\m} of power coming out of the lens fiber.
 
-As each device on the chip has unique characteristics due to fabrication errors only some devices produced good data meaning that a full characterisation of the chip was not possible and only a few devices were used. Typically it was imperfections in the spot size converters on the chips being imperfect which prevented good JSI's from being collected but another issue encountered was under coupling of the rings.
+\begingroup
+    \centering  
+    \includegraphics[width=10cm]{img/method/glassgowChipNumbering.png}
+    \captionof{figure}{Glassgow test structure chip}
+     \vspace{3pt} \label{glassgowChip}
+\endgroup
+
+As each device on the chip has unique characteristics due to fabrication errors only some devices produced good data meaning that a full characterisation of the chip was not possible and only a few devices were used. Typically it was imperfections in the spot size converters on the chips being which prevented good JSI's from being collected but another issue encountered was under coupling of the rings.
 
 Here we present three data sets collected, each has high SNR of at least $20$ allowing for the maximum purity $P_{max}$ to be calculated with high accuracy. The relevant spectral scan is presented with the JSIs for reference, these are routine scans performed with the tunable CW laser typically at \SI{1}{\m\watt} of which roughly \SI{-14}{\deci\bel\m} gets into the chip. 
 
@@ -53,14 +60,45 @@ The final JSI collected for this chip is shown in figure \ref{b32_jsi}, here the
 {\bf Summary }The three purities observed $(0.42,0.52,0.62)$ coincide with previous characterisations of the chip using the single photon detectors which measured a purity of on the order 0.45 \cite{scammell_indistinguishable_2014}. A advantage to these measurements is they allow one to easier develop ways of increasing the purity.
 \subsection{a-Si}
 
-% Some initial joint spectrums.
-% Try to calculate the quality of the rings.
-% Analyse the g2(0) data
+
+Here the power scan method developed in section \ref{powerScan} was applied to an amorphous silicon chip. This chip contained ring resonator and straight waveguide test structures which were coupled via diffraction gratings, requiring vertical coupling. This chip was chosen because of pre-existing analysis of the pair generation rate and of the purity using the methods from section \ref{g2method}. Figure \ref{aSIChip} shows an example of a ring resonator structure on the chip.
+
+\begingroup
+    \centering  
+    \includegraphics[width=5cm]{img/method/chipPictures/exampleASIRing.png}
+    \captionof{figure}{Example of a ring resonator structure on the a-Si chip.}
+     \vspace{3pt} \label{aSIChip}
+\endgroup
+
+The Pritel pulsed laser had a pulse duration of \SI{5}{\pico\second}, a FWHM of \SI{0.4}{\nano\meter} with wavelength range \SI{1530}{\nano\meter} to \SI{1560}{\nano\meter}, a peak power of \SI{50}{\watt} and a repetition rate of \SI{50}{\mega\hertz}. In this experiment it was decided that due to the temperature and coupling variations in the set up, the $g^{(2)}(0)$ measurement and the JSI would be collected at as close to the same time as possible. This meant that the set up was alternated in between the two methods for each different value of the variable attenuator, this resulted in a rather complex experimental procedure.
+
+The ring chosen had $Q \approx 7000$, $r$ and $\tau$ values of (0.98,0.93), noting that due to their symmetry it was not possible to discern which one is which without further analysis, so it was possible the ring was under coupled. The ring has a diamter of \SI{26.5}{\micro\m} and is coupled to a \SI{550}{\micro\m} long bus waveguide
+
+The Pritel erbium-doped fiber amplifier (EDFA) was used to increase the output power of the laser. Doing this well was not a trivial task as at high powers self modulation (SPM) occurs in the fiber optic cables, particularly as the DWDMs contained large lengths of fiber. So a amplification level was found which minimised SPM while still offering a worthwhile amplification. Also in order to reduce the ASE which would drown out the joint spectrum signal, a further DWDM was placed at the output of the laser to avoid amplifying its ASE output in the EDFA.
+
+The results of the joint spectrum scans are shown in figure \ref{asi_jsi_grid}, three filters have been applied to the data in order to remove noise. These are:
+
 
 % asi
 \begingroup
-    \centering  
+    \centering
     \includegraphics[width=16cm]{/home/luka/Dropbox/cqp/report/thesis/res/asi/graph.pdf}
-    \captionof{figure}{tit} 
+    \captionof{figure}{From high power to low power (see figure \ref{theshit} for the purity and power values.) the joint spectrums collected in the experiment. The VBW was set to 10Hz, with a point average of 30, resolution of 0.03nm on the OSA and a resolution of 0.01nm on the CW. The coupling was adjusted so that the lose as as close to \SI{19}{\decibel} as possible.}
      \vspace{3pt} \label{asi_jsi_grid}
+\endgroup
+
+The results show a visible change in shape at different powers, looking at \ref{theShit} the purities do somewhat match up with 
+
+\begingroup
+    \centering
+    \includegraphics[width=10cm]{res/asi/averageAndJS.pdf}
+    \captionof{figure}{A comparison of the two experiments, the $g^{(2)}(0)$ values come from an average of the data in figure \ref{lizzylizzy}. We know that the JSI only gives an upper bound for the  purity, this is confirmed here. The error bars for the JSI method are derived using figure \ref{noiseGraph}, where noise was added to a simulation and the error in the purity is numerically found as a function of SNR. Here the SNR's were between 1.5 and 2.5 hence the large error bars.}
+     \vspace{3pt} \label{theshit}
+\endgroup
+
+\begingroup
+    \centering
+    \includegraphics[width=10cm]{/home/luka/Dropbox/cqp/report/thesis/res/asi/g2AndTrio.pdf}
+    \captionof{figure}{This data was collected by Lizzy Hemesley. Experiment 2 was done in conjunction with the JSI experiment.} 
+     \vspace{3pt} \label{lizzylizzy}
 \endgroup
