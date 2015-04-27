@@ -65,11 +65,34 @@ Erman Engin, Damien Bonneau, Chandra~M. Natarajan, Alex~S. Clark, M.~G. Tanner,
   bias enhancement.
 \newblock {\em Opt. Express}, 21(23):27826--27834, November 2013.
 
+\bibitem{boyd_nonlinear_2013}
+Robert~W. Boyd.
+\newblock {\em Nonlinear {Optics}}.
+\newblock Academic Press, October 2013.
+
+\bibitem{fox_quantum_2006}
+Mark Fox.
+\newblock {\em Quantum {Optics} : {An} {Introduction}: {An} {Introduction}}.
+\newblock Oxford University Press, April 2006.
+
+\bibitem{liscidini_asymptotic_2012}
+M.~Liscidini, L.~G. Helt, and J.~E. Sipe.
+\newblock Asymptotic fields for a {Hamiltonian} treatment of nonlinear
+  electromagnetic phenomena.
+\newblock {\em Phys. Rev. A}, 85(1):013833, January 2012.
+
 \bibitem{harder_optimized_2013}
 Georg Harder, Vahid Ansari, Benjamin Brecht, Thomas Dirmeier, Christoph
   Marquardt, and Christine Silberhorn.
 \newblock An optimized photon pair source for quantum circuits.
 \newblock {\em Opt. Express}, 21(12):13975--13985, June 2013.
+
+\bibitem{silverstone_qubit_2014}
+Joshua~W. Silverstone, Raffaele Santagati, Damien Bonneau, Michael~J. Strain,
+  Marc Sorel, Jeremy~L. O'Brien, and Mark~G. Thompson.
+\newblock Qubit entanglement on a silicon photonic chip.
+\newblock {\em arXiv:1410.8332 [quant-ph]}, October 2014.
+\newblock arXiv: 1410.8332.
 
 \bibitem{niehusmann_ultrahigh-quality-factor_2004}
 Jan Niehusmann, Andreas Vörckel, Peter~Haring Bolivar, Thorsten Wahlbrink,
@@ -95,12 +118,37 @@ Stefano Azzini, Davide Grassani, Matteo Galli, Lucio~Claudio Andreani, Marc
   microring resonators.
 \newblock {\em Opt. Lett.}, 37(18):3807--3809, September 2012.
 
+\bibitem{eckstein_direct_2014}
+Andreas Eckstein, Guillaume Boucher, Aristide Lemaître, Pascal Filloux, Ivan
+  Favero, Giuseppe Leo, John~E. Sipe, Marco Liscidini, and Sara Ducci.
+\newblock Direct high-resolution characterization of quantum correlations via
+  classical measurements.
+\newblock {\em Laser \& Photonics Reviews}, 8(5):L76--L80, September 2014.
+\newblock arXiv: 1312.4197.
+
+\bibitem{fang_fast_2014}
+Bin Fang, Offir Cohen, Marco Liscidini, John~E. Sipe, and Virginia~O. Lorenz.
+\newblock Fast and highly resolved capture of the joint spectral density of
+  photon pairs.
+\newblock {\em Optica}, 1(5):281--284, November 2014.
+
 \bibitem{christ_probing_2011}
 Andreas Christ, Kaisa Laiho, Andreas Eckstein, Katiúscia~N. Cassemiro, and
   Christine Silberhorn.
 \newblock Probing multimode squeezing with correlation functions.
 \newblock {\em New Journal of Physics}, 13(3):033027, March 2011.
 \newblock arXiv: 1012.0262.
+
+\bibitem{paul_photon_1982}
+H.~Paul.
+\newblock Photon antibunching.
+\newblock {\em Rev. Mod. Phys.}, 54(4):1061--1102, October 1982.
+
+\bibitem{hong_measurement_1987}
+C.~K. Hong, Z.~Y. Ou, and L.~Mandel.
+\newblock Measurement of subpicosecond time intervals between two photons by
+  interference.
+\newblock {\em Phys. Rev. Lett.}, 59(18):2044--2046, November 1987.
 
 \bibitem{scammell_indistinguishable_2014}
 Eric Scammell.

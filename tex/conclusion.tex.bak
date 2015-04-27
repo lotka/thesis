@@ -1,2 +1,4 @@
-\newpage
 \section{Conclusion}
+We have shown it is possible to collect the joint spectral intensity of photons generated in silicon ring resonators and to use this information to gain information about the separability of the bi-photon wavefunction. It has been shown that it is important to maximise the SNR in the recorded data to do accurate measurements of the purity. Otherwise complicated filtering techniques must be employed to recover the data and these are subject to high degrees of uncertainty.  Agreement between the JSI Purity and the $g^{(2)}(0)$ values have been found but further experimental work is required to fully confirm the correlation. 
+
+This work has been successful in developing a method of measuring JSI's and analysing them. It opens up a large body of work to investigate the spectral purity of ring resonator single photon sources under many conditions.

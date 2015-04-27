@@ -36,7 +36,7 @@ To begin the process for collecting a joint spectrum, the set up is arranged as 
      \vspace{3pt} \label{simpleJSI}
 \endgroup
 
-The wavelength division multiplexer (DWDM) has 16 channels with \SI{90}{\deci\bel\m} noise suppression and FWHM of \SI{1}{\nano\m}. These are used to suppress the frequency independant background noise caused by amplified spontaneous emission (ASE) in both lasers produce. With temperature control of the chip the resonances are tuned to the center of the DWDM channels. Then two resonances are chosen, onto one the pump is tuned and the other is connected to the CW laser in preparation for the stimulated four wave mixing. 
+The wavelength division multiplexer (DWDM) has 16 channels with \SI{90}{\deci\bel\m} noise suppression and FWHM of \SI{1}{\nano\m}. These are used to suppress the frequency independant background noise caused by amplified spontaneous emission (ASE) that both lasers produce. With temperature control of the chip the resonances are tuned to the center of the DWDM channels. Then two resonances are chosen, onto one the pump is tuned and the other is connected to the CW laser in preparation for the stimulated four wave mixing. 
 
 Figure \ref{aSiBigPicture} is a key illustration of this experiment. With the pulsed laser tuned to a resonance in wavelength and polarisation the CW laser can stimulate the four wave mixing process. 
 
@@ -47,7 +47,7 @@ Figure \ref{aSiBigPicture} is a key illustration of this experiment. With the pu
      \vspace{3pt} \label{aSiBigPicture}
 \endgroup
 
-Each horizontal slice of figure \ref{aSiBigPicture}   is a sweep on the optical spectrum analyser (OSA). An important experimental decision here is which settings use on the OSA. key settings to be considered for the MS9740A Optical Spectrum Analyzer used are:
+Each horizontal slice of figure \ref{aSiBigPicture}   is a sweep on the optical spectrum analyser (OSA). An important experimental decision here is which settings use on the OSA. The settings to be considered for the Anritsu MS9740A Optical Spectrum Analyser which was used are:
 \begin{itemize}
 	\item \textbf{Video Bandwidth} (VBW) - The OSA functions by passing light through a diffraction grating and then collecting light for some time at each angle, the VBW represents how long it takes for the whole range of wavelengths to be scanned. The OSA has VBW ranging between 1MHz and 10Hz. For the low intensity nature of the signal we are measuring, 10Hz (32s sweep time, \SI{-80}{\decibel\m} sensitivity) and 100Hz (32s sweep time, \SI{-90}{\decibel\m} sensitivity) are typically used.
 	\item \textbf{Resolution} - The aperture  which scans across the light coming out of the diffraction grating has a variable size, its minimum is 0.03nm and this was always used to try and achieve the most accurate measurements. 
@@ -92,7 +92,7 @@ This experiment uses a completely different method to find the $g^{(2)}(0)$ whic
 \endgroup
 
 \subsection{JSI filtering}
-The filtering methods:
+A few filtering methods have been developed to clear up nosisy joint spectrums, they are as follows:
 \begin{itemize}
 	\item \textbf{Background noise subtraction} - The background level of noise is found with a scan with the CW laser off, this is subtracted from the data and negative values are zeroed.
 	\item \textbf{CW noise removal} - When the CW laser is of resonance the noise level increases, leaving noise with a resonance like shape. This is subtracted away and again negative values are set to zero.

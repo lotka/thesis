@@ -81,7 +81,7 @@ Use also $r_2=r^*_1$
 0 & 1 \\
 \end{pmatrix}
 \end{equation}
-Ok so $T_2=T_1=t$
+Because $T_2=T_1=t$:
 \begin{equation}
 \begin{pmatrix}
 |r_1|^2+t^2 & 0 \\
@@ -98,7 +98,7 @@ Ok so $T_2=T_1=t$
 \begin{equation}
 |r_2|^2=1-t^2
 \end{equation}d
-Basically I have a degree of freedom. $r_1=e^{i\theta}r$ and $r_2=e^{-i\theta}r$. Choose $\theta = 0$ for simplicity.
+There is a degree of freedom. $r_1=e^{i\theta}r$ and $r_2=e^{-i\theta}r$. Choose $\theta = 0$ for simplicity.
 
 Now the matrix is:
 \begin{equation}
@@ -108,9 +108,9 @@ it & r \\
 \end{pmatrix}
 \end{equation}
 
-Now we add that $$E_2=\tau e^{i\theta}E_1$$
+Adding that $$E_2=\tau e^{i\theta}E_1$$
 
-Recall the initial equations.
+Recalling the initial equations.
 % Equation for E_out
 \begin{equation}
 E_{out}=rE_{in}+itE_2
@@ -127,10 +127,7 @@ E_{1}=r\tau e^{i\theta}E_1+itE_{in}
 \begin{equation}
 \frac{E_{1}}{E_{0}}=\frac{it}{1-r\tau e^{i\theta}}
 \end{equation}
-Okay so thats $E_1$ done.
-\begin{equation}
-\frac{E_{1}}{E_{0}}=\frac{it}{1-r\tau e^{i\theta}}
-\end{equation}
+Taking the absolute value gives:
 \begin{equation}
 \left|\frac{E_{1}}{E_{0}}\right |^2=\frac{t^2}{1+r^2\tau^2-2r\tau cos(\theta)}
 \end{equation}

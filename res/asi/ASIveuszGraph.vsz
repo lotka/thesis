@@ -1,5 +1,5 @@
 # Veusz saved document (version 1.22)
-# Saved at 2015-04-25T15:17:42.125667
+# Saved at 2015-04-26T21:19:17.817883
 
 AddImportPath(u'/home/luka/Dropbox/cqp/report/thesis/res/asi')
 ImportFile2D(u'0_jsASI.csv', [u'jsa'], invertrows=True, linked=True, prefix=u'js0')

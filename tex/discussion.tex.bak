@@ -1,27 +1,33 @@
 \newpage
 \section{Discussion}
+Here we discuss first the method that has been developed, drawing on the experience gained from the results. Then the two data sets are discussed and compared, finally future work is mapped out.
 \subsection{Discussion of Results}
-We have shown it is possible to collect the joint spectral intensity of photons generated in silicon ring resonators and to use this information to gain information about the seperability of the biphoton wavefunction. Here we discuss first the developed method, drawing on the experience gained from the results. Then the two data sets are discussed and compared, finally future work is mapped out.
 \subsubsection{Noise filtering}
-The main issue with filtering noisy JSI measurements is that it can dramatically change the purities depending on how it is done. The easiest way to negate this issue is to run the experiments for longer, hence reducing noise and to repeat them in order to reduce uncertainty. Otherwise care must be taken to make sure the filtering is not introducing further structure into the data.
+The main issue with filtering noisy JSI measurements is that it can dramatically change the purities depending on how it is done. The easiest way to negate this issue is to run the experiments for longer, hence reducing the noise and to repeat them in order to reduce uncertainty. Otherwise care must be taken to make sure the filtering is not introducing further structure into the data.
 
-\subsubsection{Validity of method}
+\subsubsection{Validity of the JSI method}
+Two main issues exist with this method:
+\begin{itemize}
+	\item \textbf{Loss of phase information and other correlations} The JSI loses the phase information and provides an upper bound for the purity. Hence it will always need complimentary measurements unless it is found that phase correlations are insignificant. Other correlations can also effected the purity and these are also lost, such as polarisation correlations.
+	\item \textbf{Noise} - The SNR must be maximised for high precision measurements, this is sometimes difficult with devices with high coupling losses. This should become less of a problem as progress is made with this new coupling technology, the JSI method discussed in this work will hence become much more accurate, as it is on other platforms. 
+	\item \textbf{Mismatch between stimulated and spontaneous four wave mixing} - In theory \cite{azzini_classical_2012} the two processes should be the same, however because the refractive index of the material changes as a function of injected power, the JSI shapes produced will be different depending on the power of the seed laser. We tried to apply the minimal CW power needed to read a good signal, but future experiments could check to see how much this effects the JSI. A very high power CW probe would asymmetrically distort the ring shape. 
+\end{itemize}
+
 \subsubsection{Glassgow chip}
-The joint spectrums collected from the glassgow chip show a variety of interesting features which would not have been discernible using the $g^{(2)}(0)$ method. It is observed that the photons generating in the straight waveguide and the ring resonators actually interfere with each other introducing further structure into the wavefunction. This suggests that the straight waveguide contribution should be reduced by either placing the ring resonators sources as close to the start of the linear optical circuit as possible or by filtering. Filtering of course introduces lots of loss into the system and is hence undesirable. 
+The joint spectrums collected from the glassgow chip show a variety of interesting features which would not have been discernible using the $g^{(2)}(0)$ method. It is observed that the photons generated in the straight waveguide and the ring resonators actually interfere with each other introducing further structure into the wavefunction. This suggests that the straight waveguide contribution should be reduced by either placing the ring resonator sources as close to the start of the linear optical circuit as possible or by applying spectral filters. Filtering of course introduces lots of loss into the system and is hence an optimum balance between spectral filtering and purity should be found. 
 \subsubsection{a-Si power scan}
-The filtering reduces the reliability of the data because it allows the experimenter to effectively change the purity by subtracting different noise levels, deleting more modes or even applying a Gaussian filter. This is a strong sign that these experiments must be repeated multiple times to be fully credible. Another solution would be to only take a few JSI measurements, but run them for a lot longer in order to increase the SNR dramatically. Then with the lowered error values the $g^{(2)}(0)$ measurement could be verified. 
+The noise filtering reduces the reliability of the data because it allows the experimenter to effectively change the purity by subtracting different noise levels, deleting more modes or even applying a Gaussian filter. This is a strong sign that these experiments must be repeated multiple times to be fully credible. Another solution would be to only take a few JSI measurements, but run them for a lot longer in order to increase the SNR dramatically. Then with the lowered error values the many $g^{(2)}(0)$ measurements could be properly compared.
 \subsubsection{Comparison of results}
-Comparing the a-Si and Glasgow experiment first shows that the SNR of the joint spectrum is an important quantity. In the a-Si experiment it was not possible to run the experiment at low enough VBW to get a high SNR. Also as it was performed with a more noisy amplified laser more noise and self phase modulation was introduced, making the need for complicated filtering greater. 
-
-
-
-
+Comparing the a-Si and Glasgow experiment first shows that the SNR of the joint spectrum is an important quantity. In the a-Si experiment it was not possible to run the experiment at low enough VBW to get a high SNR. Also as it was performed with a more noisy amplified laser more noise and self phase modulation was introduced, making the need for complicated noise filtering greater. No previous work has tried to collect the JSI in the face of so much loss and hence they have not needed to filter the noise as aggressively. This is becasue previous works have used fibers or photonic crystals, which have none or less coupling losses.
 
 \subsection{Future work}
+The most urgent thing to do would be to repeat the a-Si experiment and see if the result are reproducible. Less JSI measurments would be taken but at longer integration times, this would also really test the validity of the filtering methods used.
 
-Hence to 
-% How bad is the filtering
-% How bad is it to throw away the phase information
+The JSIs should be fitted to the existing simulations, this would allow the recovery of the phase information. This could be further verified with the $g^{(2)}(0)$ value. 
+
+
+
+
 % Should have repeated more measurements
 % Glassgow B32 should have swapped the inputs man could have done some awesome stuff, meh, really??
 % the complications of a pwoer scan

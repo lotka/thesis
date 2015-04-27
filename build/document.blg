@@ -3,46 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: build/document.aux
 The style file: unsrt.bst
 Database file #1: bibfile.bib
-Warning--I didn't find a database entry for "trace"
-You've used 17 entries,
+You've used 25 entries,
             1791 wiz_defined-function locations,
-            559 strings with 7334 characters,
-and the built_in function-call counts, 4741 in all, are:
-= -- 375
-> -- 310
+            600 strings with 8667 characters,
+and the built_in function-call counts, 6631 in all, are:
+= -- 533
+> -- 413
 < -- 0
-+ -- 110
-- -- 93
-* -- 459
-:= -- 802
-add.period$ -- 54
-call.type$ -- 17
-change.case$ -- 17
++ -- 148
+- -- 123
+* -- 620
+:= -- 1114
+add.period$ -- 80
+call.type$ -- 25
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 148
-empty$ -- 402
-format.name$ -- 93
-if$ -- 973
+cite$ -- 25
+duplicate$ -- 221
+empty$ -- 577
+format.name$ -- 123
+if$ -- 1373
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 16
-newline$ -- 91
-num.names$ -- 17
-pop$ -- 21
+int.to.str$ -- 25
+missing$ -- 26
+newline$ -- 133
+num.names$ -- 25
+pop$ -- 41
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 55
+skip$ -- 77
 stack$ -- 0
-substring$ -- 382
-swap$ -- 17
+substring$ -- 512
+swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 42
-width$ -- 19
-write$ -- 193
-(There was 1 warning)
+while$ -- 59
+width$ -- 27
+write$ -- 282

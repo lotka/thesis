@@ -5,7 +5,7 @@ It was Richard Feynman in 1982\cite{feynman_simulating_1982} who first imagined 
 \begin{equation}
 \ket{\psi}=\alpha \ket{0}+\beta\ket{1}
 \end{equation}
-this says the qubit is in a superposition of being in the $\ket{0}$ and $\ket{1}$ state at the same time, where $\alpha$ and $\beta$ are the complex probability amplitudes. If we perform a measurement there is a $|\alpha|^2$ probability of measuring $\ket{0}$ and a $1-|\alpha|^2=|\beta|^2$ probability of measuring $\ket{1}$. This is a generalization of the classical bit, which can only ever be set to 0 or 1. With this added structure, quantum computers can in theory out perform classical computers in certain tasks such as factorisation \cite{shor_polynomial-time_1995}, meteorology \cite{toth_quantum_2014}, quantum chemistry\cite{georgescu_quantum_2014} and they can be used to establish communication systems secured by the laws of physics with quantum key distribution (QKD)\cite{zhang_reference-frame-independent_2014}.
+this says that a qubit is in a superposition of being in the $\ket{0}$ and $\ket{1}$ state at the same time, where $\alpha$ and $\beta$ are the complex probability amplitudes. If we perform a measurement there is a $|\alpha|^2$ probability of measuring $\ket{0}$ and a $1-|\alpha|^2=|\beta|^2$ probability of measuring $\ket{1}$. This is a generalization of the classical bit, which can only ever be set to 0 or 1. With this added structure, quantum computers can in theory out perform classical computers in certain tasks such as factorisation \cite{shor_polynomial-time_1995}, meteorology \cite{toth_quantum_2014}, quantum chemistry\cite{georgescu_quantum_2014} and they can be used to establish communication systems secured by the laws of physics with quantum key distribution (QKD)\cite{zhang_reference-frame-independent_2014}.
 
 With the exception of QKD none of these applications have yet been fully realised, in particular because not all of the criteria  \cite{divincenzo_quantum_1998} set out in 1998 by DiVincenzo for a universal quantum  computer have been met. These are:
 \begin{itemize}
@@ -19,8 +19,8 @@ the gate operation time
 	\item A qubit-specific measurement capability
 \end{itemize}
 
-This work aims to make some progress on the first two criteria in the context of integrated optical quantum computers. Here we define qubits as photons, with $\ket{0}$ and $\ket{1}$ denoting the path a photon takes through a linear optical quantum circuit (LOQC). Figure \ref{loqc} shows how a LOQC fits into a wider context, with single photon sources supplying qubits, single photon detectors reading out the results of the computations and a classical computer which reconfigures the circuit using the detection results. We now discuss what kind of single photon source would satisfy these criteria.
-
+This work aims to make some progress on the first two criteria in the context of integrated optical quantum computers. Here we define qubits as photons, with $\ket{0}$ and $\ket{1}$ denoting the path a photon takes through a linear optical quantum circuit. Figure \ref{loqc} shows how this fits into a wider context, with single photon sources supplying qubits, single photon detectors reading out the results of the computations and a classical computer which reconfigures the circuit using the detection results.
+\newpage
 \begingroup
     \centering  
     \includegraphics[width=12cm]{img/theory/loqc.pdf}
@@ -37,11 +37,11 @@ This work aims to make some progress on the first two criteria in the context of
 The ideal single photon source would produce exactly one photon when triggered in a pure quantum state, where pure means it is in a state superposition of all of its spectral components rather than a statistical mixture. This happens if the temporal shape is the same as the Fourier transform of its spectrum \cite{uren_generation_2007}. Such a perfect source does not yet exist. We can divide existing sources into two categories, deterministic and probabilistic\cite{eisaman_invited_2011}. The first kind are typically small single atom or molecule systems, which respond deterministically to some kind of impulse. For example a single atom two level system can be excited by a laser pulse into the upper level, it will then emit a photon of some fixed energy after some relaxation time. Non-deterministic or probabilistic sources on the other hand must be heralded so that there is knowledge of when they fired. 
 
 
-In the past these experiments have typically been performed with bulk optics meaning that each element is fixed to a large optical work bench, carefully aligned with the next element and with the light travelling in the air in between. These experiments take up a lot of lab space and quickly encounter resource constraints if they try to become too complex. A solution to this is to translate each of the components onto a integrated chip, where far less alignment is needed, the important devices always maintain the same separation and most importantly vastly more complicated circuits can be designed. This is of course essential to the endeavour of using LOQC's to perform complex quantum operations. Note again Divencenzo's first criteria, referring to scalability, integrating photonics onto chips makes a lot of progress on this front.
+In the past such experiments have typically been performed with bulk optics meaning that each element is fixed to a large optical work bench, carefully aligned with the next element and with the light travelling in the air in between. These experiments take up a lot of lab space and quickly encounter resource constraints if they try to become too complex. A solution to this is to translate each of the components onto a integrated chip, where far less alignment is needed, the components maintain the same temperature, size and most importantly vastly more complicated circuits can be designed. This is of course essential to the endeavour of using LOQC's to perform complex quantum operations. Note again Divencenzo's first criteria, referring to scalability, integrating photonics onto chips is direct progress on this front.
 
 Photonics can be integrated onto chips of various materials, typical choices are glass, lithium niobate and silicon. Here we focus on silicon, it has the advantage that advanced fabrication techniques exist due to the multi-billion dollar semiconductor industry. Two types of silicon are used, the first is the standard silicon with its periodic lattice structure and the second is amorphous silcion which forms a random network structure. Amorphous silicon could potentially solve problems with standard silicon such as two photon absorption and subsequent free carrier absorption which is known to be detrimental to single photon sources.
 
-On chip single photon sources on silicon have been studied \cite{silverstone_-chip_2014,engin_photon_2013} and shown to be a promising platform. Currently two ways of producing photons are employed. The first way employs large spools of waveguide (to increase photon production probability) towards the start of the circuit into which a intense laser beam (referred to as the pump) is injected and due to non-linear processes single photons are produced. This happens because silicon has a $\chi^{(3)}$ non-linearity and so a small amount of frequency conversion occurs. The process called spontaneous four wave mixing (SFWM) takes two pump photons $\omega_{p_1}$, $\omega_{p_2}$ and converts them into a signal $\omega_s$ and  $\omega_i$ idler according to the following energy conservation equation.
+On chip single photon sources on silicon have been studied \cite{silverstone_-chip_2014,engin_photon_2013} and shown to be a promising platform. Currently two ways of producing photons are employed on such chips. The first way employs large spools of waveguide (to increase photon production probability) into which a intense laser beam (referred to as the pump) is injected and due to non-linear processes single photons are produced. This happens because silicon has a $\chi^{(3)}$ non-linearity and so a small amount of frequency conversion occurs. The process called spontaneous four wave mixing (SFWM) and takes two pump photons $\omega_{p_1}$, $\omega_{p_2}$ and converts them into a signal $\omega_s$ and  $\omega_i$ idler according to the following energy conservation equation.
 
 \begin{equation} \label{energyConservation}
 \omega_{p_1}+\omega_{p_2}=\omega_s+\omega_i
@@ -49,17 +49,17 @@ On chip single photon sources on silicon have been studied \cite{silverstone_-ch
 
 This equation works in general, for a laser beam with only one frequency we write $2\omega_p=\omega_s+\omega_i$. An upshot of producing two photons is that this is a heralded single photon source, meaning it is possible to know when you've generated a photon by using, for example, the idler as your herald and the signal as the heralded photon. 
 
-A second alternative way to control the generation of the single photons is to create a cavity into which the beam can couple and produce single photon pairs (signal and idlers) with a higher probability. The cavity which we focus on is the ring resonator, a structure with interesting spectral properties which can be manipulated to increase the purity of the generated photons. 
+A second alternative way to control the generation of the single photons is to create a cavity into which the beam can couple and produce single photon pairs (signals and idlers) with a higher probability. The cavity which we focus on is the ring resonator, a structure with interesting spectral properties which can be manipulated to increase the purity of the generated photons. 
 
 
 %Quantum optics experiments were first conducted in bulk optics \cite{burnham_observation_1970} and since then they have allowed for the development of a large body of physics, some of which have pushed the frontiers of fundamental physics. Such experiments have certain basic elements in common such as beam splitters, filters, polarisation controllers, phase shifters, etc. With these elements occupying a fair amount of space in a lab there is a practical size limit on what can be done, hence there has been a recent push into compressing such optical experiments onto a single photonic chip. Each of the optical elements described previously can be implemented onto such chips. The free space propagation of light is replaced by waveguides etched onto materials such as silicon, lithium niobate or glass. Beam splitters and couplers are implemented by running two waveguides close enough to each other so that light can couple between them via their evanescent fields. Filters are implemented as ring resonators which are circular cavaties into which only certain wavelengths of light will resonate and hence be filtered. Phase shifts can be induced by heating small portions of the chip with an electrical probe.
 
 %Here we focus in on a particular element, the ring resonator etched onto silicon photonic devices. Silicon is an attractive material primarily due to the already established microchip industry which can produce highly precise structures at the nanoscale on the back of decades of demand for faster and smaller computing devices. Furthermore silicon has a high $\chi^{(3)}$ non-linearity enabling frequency conversion and hence the implementation of a single photon source.
 
-\subsection{Four wave mixing in silicon waveguides}
+\subsection{Four wave mixing in silicon waveguides} \label{FWMSECTION}
 Here we motivate some of the theoretical background to four wave mixing in order to arrive at why ring resonators can be used to better exploit the process. 
 
-Waves travel through non-linear materials according to the non-linear wave equation:
+Waves travel through non-linear materials according to the non-linear wave equation\cite{boyd_nonlinear_2013}
 \begin{equation}
 \nabla^2 \mathbf{E} - \frac{n^2}{c^2}\frac{\partial^2}{\partial t^2}\mathbf{E}
 = \frac{1}{\varepsilon_0 c^2}\frac{\partial^2}{\partial t^2}\mathbf{P}^{NL}
@@ -73,7 +73,7 @@ Where $\mathbf{P}^{NL}$ accounts for the non-linear response of the material and
 
 
 \begin{equation}
-\mathbf{E}(t)=E_s\cos(\omega_st)+E_p\cos(\omega_pt)
+E(t)=E_s\cos(\omega_st)+E_p\cos(\omega_pt)
 \end{equation}
 \noindent
 The result is proportional to:
@@ -89,12 +89,11 @@ Where $h.t.$ are the harmonic terms, such as $E_1^3\cos(3\omega_p t)$ which are 
 \begin{equation} \label{FWM}
 	2\omega_p-\omega_s = \omega_i^{(2)}
 \end{equation}
-We call the resulting beam $\omega_i$ the idler. Now we take interest in the second process(equation \ref{FWM}) because this is one typically used in quantum optics to produce photon pairs for a single photon sources and it has better phase matching conditions. Rewriting it as $	2\omega_p = \omega_i+\omega_s$ and thinking of the classical waves as streams of photons we can see that two pump photons can be converted into signal and idler photons. This conversion is allowed due to vacuum fluctuations stimulating the process, these are very weak and so the efficiency of the process is also quite low.
+We call the resulting beam $\omega_i$ the idler. Now we take interest in the second process(equation \ref{FWM}) because this is the one typically used in quantum optics to produce photon pairs for a single photon source and it has better phase matching conditions. Rewriting it as $	2\omega_p = \omega_i+\omega_s$ and thinking of the classical waves as streams of photons we can see that two pump photons can be converted into signal and idler photons. This conversion is allowed due to vacuum fluctuations stimulating the process, these are very weak and so the efficiency of the process is also quite low.
 
-Discussion of phase matching has been omitted, but it is enough to say that in order for the process to constructively interfere and hence satisfy the wave equations we must have $2\mathbf{k_p}=\mathbf{k_i}+\mathbf{k_s}$.
+Discussion of phase matching has been omitted, but it is enough to say that in order for the process to constructively interfere and hence satisfy the wave equations we must have $2\mathbf{k_p}=\mathbf{k_i}+\mathbf{k_s}$. In the ring resonator cavities discussed further on, these restrictions are lifted.
 
-
-Now in order to take this process to the single photon level we must introduce a way to talk about photons at the quantum scale. Because of the Heisenberg uncertainty principle the number of photons at each energy level can be uncertain. Such states are described by a vector in fock space, for example a state where there are two photons in the first and third energy level would be written as:
+Now in order to take this process to the single photon level we must introduce a way to talk about photons at the quantum scale. Because of the Heisenberg uncertainty principle the number of photons at each energy level can be uncertain. Such states are described by a vector in fock space\cite{fox_quantum_2006}, for example a state where there are two photons in the first and third energy level would be written as:
 \begin{equation}
 	\ket{2020...}
 \end{equation}
@@ -109,7 +108,7 @@ Operators exist to create and annihilate photons.
 \end{align}
 With commutation relations $[a_i,a_j]=[a^{\dagger}_i,a^{\dagger}_j]=0$ and $[a_i,a^{\dagger}_j]=\delta_{ij}$
 
-The non-linear hamiltonian that governs the spontaneous four wave mixing process in the waveguide is:
+The non-linear hamiltonian that governs the spontaneous four wave mixing process in the waveguide is \cite{liscidini_asymptotic_2012}:
 
 \begin{equation}
 \hat H_{NL} = -\chi^{(3)}\int_\infty^\infty\int_\infty^\infty\int_\infty^\infty\int_\infty^\infty S(k_{p_s},k_{p_i},k_{p_1},k_{p_2})( a_{k_{p_i}}^{\dagger}a_{k_{s}}^{\dagger}a_{k_{p_1}}a_{k_{p_2}} + h.c.)dk_{p_s}dk_{p_i}dk_{p_1}dk_{p_2}
@@ -125,13 +124,13 @@ The linear vacuum hamiltonian is also involved:
 \noindent
 Adding these two up gives the overall hamiltonian $\hat H = \hat H_{L} + \hat H_{NL}$. The function $S(k_{p_s},k_{p_i},k_{p_1},k_{p_2})$ represents the coupling between the various frequencies. 
 
-This general frame work applies to both straight waveguide and ring resonator production of photon pairs. There is a large amount of literature [,,,,] which describes how to use it to derive the resultant wavefunction, here we simply state the general result:
+This general frame work applies to both straight waveguide and ring resonator production of photon pairs. There is literature \cite{liscidini_asymptotic_2012} which describes how to use it to derive the resultant wave-function, here we simply state the general result:
 \begin{equation}
-\ket{\psi_{out}}=\left [1 + \frac{\beta}{\sqrt{2}}\int dk_1dk_2\Phi(k_1,k_2)a_{k_1}^{\dagger}a_{k_2}^{\dagger} \right ]\ket{vac} \label{JSAWavefunct}
+\ket{\psi_{out}}=\frac{\beta}{\sqrt{2}}\int dk_1dk_2\Phi(k_1,k_2)a_{k_1}^{\dagger}a_{k_2}^{\dagger}\ket{vac}_{k_1}\otimes\ket{vac}_{k_2} \label{JSAWavefunct}
 \end{equation}
-This is called the biphoton wavefunction, the reason we omit the full theory is because this project focuses on measurement and analysis of $\Phi$ rather than it's exact theoretical origin. The biphoton wavefunction encodes all of the information about how the photon pairs were produced that effect its spectral and phase distribution. This includes the pump spectrum, intensity, the geometry of the waveguide or cavity used for the process.
+This is called the biphoton wavefunction, the reason we omit the full theory is because this project focuses on measurement and analysis of $\Phi$ rather than its exact theoretical origin. The biphoton wavefunction encodes all of the information about how the photon pairs were produced that effect its spectral and phase distribution. This includes the pump spectrum, intensity, the geometry of the waveguide or cavity used for the process.
 
-This biphoton wavefunction can be produced by injecting a laser into the waveguide and so supplying two pump photons. Furthermore with the classical motivation in mind, this process can be stimulated by adding a further laser at the idler or signal frequency. This allows for the measurement of $\Phi$ in slices using an optical spectrum analyser. The theory of this is described in section \ref{marcoStuff}.
+This biphoton state can be produced by injecting a laser into the waveguide and so supplying two pump photons. Furthermore with the classical motivation in mind, this process can be stimulated by adding a further laser at the idler or signal frequency. This allows for the measurement of $\Phi$ in slices using an optical spectrum analyser. The theory of this is described in section \ref{marcoStuff}.
 
 
 This function $\Phi(k_1,k_2)$ is called the joint spectral amplitude (JSA) and its absolute value squared is called the joint spectral intensity (JSI). Returning to DiVenceno's criteria we require that this function is of the form $\Phi(k_1,k_2)=f(k_1)g(k_2)$ to explain this we introduce some more quantum theory.
@@ -148,14 +147,14 @@ This state can be a pure state, so that $\alpha(i,j)=f(i)g(j)$ and so
 \end{equation}
 meaning that there is no way that a measurement which happens in system A can effect system B. Otherwise it is in an entangled state and the sub systems act as statistical mixtures. The same idea can be applied to the wavefunction in equation \ref{JSAWavefunct} to give:
 \begin{equation}
-\ket{\psi_{out}}=\left [1 + \frac{\beta}{\sqrt{2}}\int dk_1f(k_1)a_{k_1}^{\dagger} \int dk_2f(k_2)a_{k_2}^{\dagger} \right ]\ket{vac}
+\ket{\psi_{out}}=\frac{\beta}{\sqrt{2}}\int dk_1f(k_1)a_{k_1}^{\dagger}\ket{vac}_{k_1}\otimes \int dk_2g(k_2)a_{k_2}^{\dagger} \ket{vac}_{k_2}
 \end{equation}
 Which now says, if you measure the first photon there is no way you can influence the second photon. For a heralded source this is vital, the process of heralding must not interfere with the heralded photon and in particular not in this way as here it would make the photon collapse randomly into one of its modes.
 
 
 
 
-In order to talk about how pure or mixed a biphoton wavefunction, the JSA can be decomposed into a linear superposition of pure states. This is written as\cite{harder_optimized_2013}:
+In order to talk about how pure or mixed a biphoton wavefunction is, the JSA can be decomposed into a linear superposition of pure states. This is written as\cite{harder_optimized_2013}:
 \begin{equation} \label{modes}
 	\Phi(k_1,k_2) = \sum_i \lambda_if_i(k_1)g_i(k_2)
 \end{equation}
@@ -166,13 +165,13 @@ With $\sum_i \lambda_i=1$. Now it is possible to assess the separability of such
 	P = \sum_i \lambda_i^4
 \end{equation}
 
-For a totally separable state where there is only one $\lambda$ coefficient, $P=1$ and this is the maximum purity of any system. The minimum value of P is less well defined and depends on the dimension of the system but for systems with large dimensionality the minimum approaches zero, in particular for spaces like frequency which have a infinite dimension the minimum is zero. 
+For a totally separable state where there is only one $\lambda$ coefficient, $P=1$ and this is the maximum purity of any system. The minimum value of P is less well defined and depends on the dimension of the system but for systems with large dimensionality the minimum approaches zero, in particular for spaces like frequency which have a infinite dimension the minimum is zero. This is called a schmidt decomposition and the schmidt modes are $f_i(k_1)g_i(k_2)$, $1/P$ gives the schmidt number $K$ which roughly quantifies how modes are required for the decomposition. $K=1$ signified a pure state and $K$ becomes vary large for a maximally mixed state.
 
 %In a straight waveguide the function $\Phi(k_1,k_2)$ is particularly non separable. It's features are defined mainly by the energy conservation of equation \ref{enelrgyConservation} and the width of the pump. To illustrate this example with take two illustrative approximations of 
 
 \subsection{Analysis of the JSI}
 
-Assuming we have collected a JSI ($|\Phi(k_1,k_2)|^2$) we now want to find out how we can extract the most information possible about the separability of the state $\ket{\psi_{out}}$. Due to finite precision on the experimental apparatus the JSI will be discretised and also cropped into some frequency region. Furthermore noise will be introduced into the measurement and we make the approximation that $\sqrt{|\Phi(k_1,k_2)|^2}\sim \Phi(k_1,k_2)$ which is analogous to discarding the phase information. The discretisation and cropping of the JSI can be expressed as
+Assuming we have collected a JSI ($|\Phi(k_1,k_2)|^2$) we now want to find out how we can extract the most information possible about the separability of the state $\ket{\psi_{out}}$. Due to finite precision on the experimental apparatus the JSI will be discretised and also cropped into some wavelength region. Furthermore noise will be introduced into the measurement and we make the approximation that $\sqrt{|\Phi(k_1,k_2)|^2}\sim \Phi(k_1,k_2)$ which is analogous to discarding the phase information. The discretisation and cropping of the JSI can be expressed as
 
 \begin{equation}
 \sum_{\omega_1,\omega_2}\Phi(\omega_1,\omega_2)|\omega_1\rangle\langle\omega_2|
@@ -208,24 +207,24 @@ This has the same form as
 	\Phi(k_1,k_2) = \sum_i \lambda_if_i(k_1)g_i(k_2)
 \end{equation}
 \noindent
-and this is called the schmidt decomposition. So by using the purity formula (equation \ref{purityEqn2}) on ${\bf f }$ we have found a way to estimate the number of modes in our bi-photon wave function, which is the quantity we want to minimise for an ideal single photon source.
+and this is the schmidt decomposition shown earlier. So by using the purity formula (equation \ref{purityEqn2}) on ${\bf f }$ we have found a way to estimate the number of modes in our bi-photon wave function, which is the quantity we want to minimise for an ideal single photon source.
 
-\subsubsection{Purity formula examples}
+\subsection{Purity formula examples}
 
-In this section we probe the behaviour of the purity formula (equation \ref{purityEqn1}) which was found in the previous section. The main aim is to numerically simulate how experimental error effects the calculated purity. This is achieved by plotting the four characteristic functions as in figure \ref{jsOrig}. Function a) illustrates that a flat function is completely separable, this obvious result will be important later on when considering how cropping effects the JSI. Function b) comes from the simulation of a ring resonator (see section \ref{resSect}) biphoton wavefunction. Function c) is simply a straight line an example of a function which is not very seperable. Function d) is similar, but with a gaussian cross section, this is included to mirror what happens in a straight waveguide source. Although a straight waveguide source will have a different shape, the response to noise should be similar. This claim is backed up by the fact that a) and b) respond similarly to the addition of noise.
+In this section we probe the behaviour of the purity formula (equation \ref{purityEqn1}) which was found in the previous section. The main aim is to numerically simulate how experimental error effects the calculated purity. This is achieved by plotting four characteristic functions as in figure \ref{jsOrig}. Function a) illustrates that a flat function is completely separable, this obvious result will be important later on when considering how cropping effects the JSI. Function b) comes from the simulation of a ring resonator (see section \ref{resSect}) biphoton wavefunction. Function c) is simply a straight line, a example of a function which is not very separable. Function d) is similar, but with a gaussian cross section, this is included to show what happens in a straight waveguide source. Although a straight waveguide source will have a different shape, the response to noise should be similar. This claim is backed up by the fact that a) and b) respond similarly to the addition of noise.
 
 \begingroup
 \centering
     \includegraphics[width=17cm]{res/theory/js_original.pdf}
-\captionof{figure}{Four illustrative functions with purtiies calculated {\bf a)} A constant function $ f(x,y) = 1$  {\bf b)} A simulation of a biphoton wavefunction from a ring resonator {\bf c)} A straight line, 1 pixel wide, $ f(x,y) = \delta(x-y)$ {\bf d)} A straight line with gaussian crosssection $ f(x,y) = e^{-(x-y)^2}$. Each plot is a 200 by 200 floating point array. }\label{jsOrig}
+\captionof{figure}{Four illustrative functions with purtiies calculated {\bf a)} A constant function $ f(x,y) = 1$  {\bf b)} A simulation of a biphoton wavefunction from a ring resonator {\bf c)} A straight line, 1 pixel wide, $ f(x,y) = \delta(x-y)$ {\bf d)} A straight line with gaussian crosssection $ f(x,y) = e^{-(x-y)^2}$. Each plot is a 200 by 200 floating point array. If this was experimental data, the axes would each signify singal and idler wavelength.}\label{jsOrig}
 \endgroup
 
-By slowly adding more noise to these four functions the plots in figure \ref{jsOrig} are obtained. Figure \ref{jsNoise} shows the functions after all the noise has been added. It is at first obvious that they have all converged to nearly the same purity of roughly $0.8\pm0.05$ which is independent of dimension for plots bigger than 10 by 10 pixels (for smaller dimensions the purity is erratic and of a higher value due to the numbers being random and sometimes forming shapes which are even more separable). It is somewhat unfortunate that random noise has such impact on measurements, in particular looking at the functions after noise has been added their original structures are still visible but the purity value is completely wrong. However with the SNR graph we can at least quickly develop a way to calculate the error in experimental data.  
+By slowly adding more noise to these four functions the plots in figure \ref{jsOrig} are obtained. Figure \ref{jsNoise} shows the functions after all the noise has been added. It is at first obvious that they have all converged to nearly the same purity of roughly $0.8\pm0.05$ which is independent of dimension for plots bigger than 10 by 10 pixels (for smaller dimensions the purity is erratic and of a higher value due to the numbers being random and sometimes forming shapes which are even more separable). It is somewhat unfortunate that random noise has such impact on measurements, in particular looking at the functions after noise has been added their original structures are still visible but the purity value is completely wrong. However with the SNR graph we can at least quickly develop a way to calculate the error in experimental data. This is done by fitting it to a function of the form $\Delta(s) = Ae^{-Bs}+Ce^{-Ds}+E$. $s$ is the SNR and $A,B,C,D,E$ are found to be $(1.13\times 10^{-7},-2.76\times 10^{-6},2.475\times 10^{-01},3.77\times 10^{-01},2.15\times 10^{-02})$ respectively.
 
 \begingroup
 \centering
     \includegraphics[width=16cm]{res/theory/purityError.pdf}
-\captionof{figure}{Two graphs showing how the error in the purity calculation for functions {\bf a,b,c,d} changes with the addition of noise. They differ only by the x-axis, the noise is guassion noise, the SNR is calculated by dividing the amount of original function by the amount of added noise.} \label{noiseGraph}
+\captionof{figure}{Two graphs showing how the error in the purity calculation for functions {\bf a,b,c,d} changes with the addition of noise. They differ only by the x-axis, the noise is gaussian noise, the SNR is calculated by dividing the amount of original function by the amount of added noise.} \label{noiseGraph}
 \endgroup
 
 \begingroup
@@ -243,10 +242,10 @@ By slowly adding more noise to these four functions the plots in figure \ref{jsO
 
 Figure \ref{zoomGraph} shows that zooming into a JSI function always increases the purity, this is because the function becomes more and more flat as you zoom in. This point is relevant in the context of engineering JSI, it means that by using filters the purity can be increased. However more filters introduces more loss and so an optimum point must be found.
 
-For trying to get a highly accurate value for the purity of some biphoton wavefunction the implication is that. 
+For trying to get a highly accurate value for the purity of some biphoton wavefunction the implication from the above work is that one sample it in a large region which collects most of the features and try to minimise the noise.
 
 \subsection{Ring Resonators} \label{resSect}
-Using ring resonators as a way to improve the separability of the JSA has been tried and found to work. Here we describe why it works and the general workings of a ring resonator, we then finally move onto discussing metrics to quantify this separability in terms of purity and schmidt number.
+Using ring resonators as a way to improve the separability of the biphoton wavefunction has been tried and found to work \cite{silverstone_qubit_2014}. For this reason we outline the theory of their operation and how best to use them as a single photon source.
 
 
 Ring resonators are one of many devices which can be found on optical circuits on chip. They are closed strips of waveguide, placed near enough to the waveguide carrying light so that light can evanescently couple inside, in other words they form a cavity. By setting up a simple experiment, where light passes by the resonator and the transmission is measured for varying wavelengths a spectrum characterising the ring can be obtained. An example of one is shown in figure \ref{ringResTrans}, periodic resonances are visible with a spacing called the free spectral range (FSR). The physical reason for the resonances is that when the input beam is an integer number of wavelengths of the circumference of the ring, a high amount of destructive interference occurs because the light picks up a $\pi$ phase shift from coupling across waveguides.
@@ -285,7 +284,7 @@ E_{2} \\
 \noindent
 With these matrices and also by noting that $E_2=\tau e^{i\theta}E_1$ is due to the ring causing a phase difference and some loss. We can derive expressions for each point in the system, for the full derivation refer to appendix \ref{ringResAppen}.
 
-\begin{equation}
+\begin{equation} \label{eout}
 \left |\frac{E_{out}}{E_{0}}\right|^2=\frac{r^2-2r\tau\cos(\theta)+\tau^2}{1+r^2\tau^2-2r\tau cos(\theta)}
 \end{equation}
 \begin{equation}
@@ -299,52 +298,61 @@ Where $\theta=kL=\frac{2\pi n_{eff}}{\lambda}L$. The analysis also finds the rel
 \begingroup
     \centering  
     \includegraphics[width=17cm]{img/theory/coupling.pdf}
-    \captionof{figure}{Notice how similar under and over coupling are to each other}
+    \captionof{figure}{Graphs showing the three coupling regimes, notice over coupling and under coupling give the same $E_{out}$ but different within the ring.}
      \vspace{3pt} \label{coupling}
 \endgroup
 
-Figure \ref{coupling} shows the 3 main regimes that can be achieved by varying $r$ and $\tau$. The first is under-coupling, a typically undesirable set up where the ring loses more light than it recieves and hence performs low quality filtering. This looks identical to over-coupling where more light enters then ring than is lost. The fact that over and coupling look the same is an important point for later analysis, as when using a resonator as a single photon source, a small amount of over-coupling is desirable. 
+Figure \ref{coupling} shows the 3 main regimes that can be achieved by varying $r$ and $\tau$. The first is under-coupling, a typically undesirable set up where the ring loses more light than it recieves and hence performs low quality filtering. This looks identical to over-coupling where more light enters then ring than is lost. The fact that over and coupling look the same is an important point for later analysis, as when using a resonator as a single photon source, a small amount of over-coupling is desirable. Furthermore the functions are unchanged by swapping $r$ and $\tau$, which makes finding them experimentally more involved than simply finding the $E_{out}$ and fitting equation \ref{eout} to it.
 
 Critical coupling occurs when the loss within the ring is balanced with the amount of light coupling in ($r=\tau$) this gives a spectrum with the highest quaility factory, where we define quality factor\cite{niehusmann_ultrahigh-quality-factor_2004} as:
 \begin{equation}
 Q \approx \frac{2\pi L n_{eff}}{-\lambda \ln{r\tau}}
 \end{equation}
 \noindent
-This metric is useful for comparing, high quality factors are better for FWM. 
+This metric is useful for comparing, high quality factors are better for SFWM. 
+
+
+Looking at figure \ref{coupling} it is evident that there is field enhancement within the ring, in other words light accumulates within the ring. This is great for enhancing the SFWM in silicon and is one reason why ring resonators are used. The other reason is these single photons will have their JSA shaped by the spectrum of the resonance, as the field enhancement is visibly only around the resonance position. Hence ring resonators increase the seperability and pair generation of the SFWM in silicon.
 
 \subsection{Bistability}
 %The bistability effect is based on the carrier generation induced by two-photon absorption
 It can be experimentally observed that injecting power into a ring resonator will cause changes in the spectral position and shape of the resonance. Typically in silicon ring resonators the more power in the ring the more the resonance position is red-shifted by the thermo-optic effect\cite{almeida_optical_2004-1}. A counter acting effect is carrier generation induced by two-photon absorption \cite{xu_carrier-induced_2006} which causes a blue-shift in the resonance position. This carrier generation process is much faster than the thermo-optic process so it more relevant to lasers with low repetition rates. 
 
-The bistability effect is observed by changing the power injected into the ring resonator at a fixed wavelength. By steadily increasing the power of a monochromatic light source injected into the ring at a wavelength slightly higher than the resonance position $\lambda_{r}$ of the ring, $\lambda_{r}$ is increased (thermal effects dominate as the laser is a continuous wave and not pulsed). The shift in $\lambda_{r}$ accelerates as more light is coupled into the ring and transmission falls as more light is coupled into the ring. The system is now in a different and stable state (assuming the injected light is not discontinued). With a low intensity probe it is now possible to map out the new position and shape of the resonance.
+The bistability effect is observed by changing the power injected into the ring resonator at a fixed wavelength. By steadily increasing the power of a monochromatic light source injected into the ring at a wavelength slightly higher than the resonance position $\lambda_{r}$ of the ring, $\lambda_{r}$ is red-shifted or increased (thermal effects dominate as the laser is a continuous wave and not pulsed). The shift in $\lambda_{r}$ accelerates as more light is coupled into the ring and transmission falls as more light is coupled into the ring. The system is now in a different and stable state (assuming the injected light is not discontinued). With a low intensity probe it is now possible to map out the new position and shape of the resonance.
 
 By doing the reverse experiment with the input power decreasing a similar phenomena is observed, however the sudden accelerating changing in resonance position is seen for a different power due to the ring coming from a different stable state. A hysteresis loop can be observed.
 
 Some knowledge of this effect is vital when planning experiments using high and variable powers, as one must take into account that the state of the ring is not fixed. Furthermore when automating equipment it may be vital to integrate knowledge of this into any scanning procedures. 
 
-\subsection{Characterisation of quantum processes with classical techniques} \label{marcoStuff}
-The theory to support this quantum measurement with classical techinques has been developed \cite{azzini_classical_2012} and it turns out the quantum and classical processes are direct analogues to each other. The ratio between their powers follows a simple formula:
+\subsection{Measuring the joint spectrum} \label{marcoStuff}
+As mentioned briefly in section \ref{FWMSECTION} the method that is to be employed in this work to measure the JSI of a ring resonator source is that of stimulated four wave mixing. This is in effect, taking the quanutm process of sponateous four wave mixing and instead of letting vacuum fluctuations seed the process using a CW laser amplify the process. This allows one slice of the JSI to be found and measured on a OSA and so by changing the CW laser wavelength all of the slices can be recovered and a JSI constructed.
+
+
+Theory proving that the stimulated and sponateous process are the same process has been developed \cite{azzini_classical_2012}. The ratio between their powers follows a simple formula:
 
 \begin{equation}
 \frac{P_{i,Q}} {P_{i,C}}=\frac{1}{4Q}\frac{\hbar\omega_p^2}{P_s}
 \end{equation}
 Where $P_s$ is the input power of the seed laser used to amplify the quantum process and $\omega_p$ is the frequency of the laser which pumps the ring resonator and $Q$ is the quality of the ring (defined in section \ref{resSect}).
 
+There is not much work measuring the joint spectrum of a silicon ring resonator with this method apart from a preliminary scan performed in the same lab as this work \cite{silverstone_-chip_2014}. The method has however been applied to different sources, the experiment in \cite{eckstein_direct_2014} measured a maximum purity of 0.95 for a AlGaAs sample. The joint spectral intensity of an optical fiber exhibiting SFWM has been measured with very high SNR \cite{fang_fast_2014}, the quality of the measurement is much higher than what can be achieved in this work because there is no loss from coupling into the photonic chips. The paper shows that it is possible to manipulate the correlations in the JSI by simply changing the length of the fiber which demonstrates there is promise for engineering sources with high purity.
+
 \subsection{Using the $g^{(2)}(0)$ to measure the purity}
-In order to verify the purities one can calculate from joint spectrums an alternative method we here refer to as measuring the $g^{(2)}(0)$ can be used. The relation between the quantities is simply \cite{christ_probing_2011}: 
+In order to verify the purities one can calculate from joint spectrums, an alternative method we here refer to as measuring the $g^{(2)}(0)$ can be used. The relation between the quantities is simply \cite{christ_probing_2011}: 
 \begin{equation} \label{g2Equation}
 	g^{(2)}(0) = 1 + P
 \end{equation}
 
-So the two are interchanged frequently. The $g^{(2)}(0)$ measures the second order correlation between two photons. Looking at equation \ref{g2Equation} it is obvious that the ideal source would have $g^{(2)}(0)=2$ which is a thermal state. The method for calculating this is outlined in section \ref{g2method}. It involves taking either the signal or idler photon and interfering it with itself with a beam splitter. Two single photon detector measuring coincidences between detection events and the number of modes can be qualified, this is basically doing the experiment in the time domain instead of the frequency domain.
+So the two are interchanged frequently. The $g^{(2)}(0)$ measures the second order correlation between two photons. Looking at equation \ref{g2Equation} it is obvious that the ideal source would have $g^{(2)}(0)=2$ which is a thermal state\cite{paul_photon_1982}. The method for calculating this is outlined in section \ref{g2method}. It involves taking either the signal or idler photon and interfering it with itself with a beam splitter. With two single photon detectors measuring coincidences between detection events and the number of modes can be qualified, this is basically doing the experiment in the time domain instead of the frequency domain.
+
+Another test which can measure the indistinguishably of a single photn source is the Hong-Ou-Mandel dip\cite{hong_measurement_1987}, which directly interferes photons produced from the source, ideally one would do this measurement along with the $g^{(2)}(0)=2$ and JSI, to fully characterise the source. 
 
 
 \subsection{What experiments can be done?}
-Now that some methods and the underlying theory of calculating the purity of a bi-photon wavefunction have been laid out, it is interesting to discuss what sort of experiments can be performed on top of just measuring the JSI and calculating the purity. The main variables that one might want to vary are while recording a JSI are:
+Now that some methods and the underlying theory of calculating the purity of a bi-photon wavefunction have been laid out, it is interesting to discuss what sort of experiments can be performed on top of just measuring the JSI and calculating the purity. The main variables that one might want to vary while recording a JSI are:
 \begin{itemize}
 	\item \textbf{Ring resonator geometry} - Values for $r,\tau,L,n_{eff}$ could be optimized for photon purity. 
 	\item \textbf{Input power} - As discussed above ring resonators respond to the amount of power due to non-linear effects. At high powers ring resonators lose some symmetry and hence the purity may decrease. Also at high powers more spectrally impure photons are generated in the straight waveguide. 
 	\item \textbf{Pump spectrum} - Ideally the pump would have an almost flat spectrum in the region of the resonance, but varying this and collecting JSIs would  be insightful. Very wide pumps might increase the straight waveguide photon production too much and hence reduce the purity, so an optimal pump spectrum may exist for each resonance. Using tunable filters this can be investigated.
 	\item \textbf{Pump overlap with resonator} - Having a misaligned pump has been shown to decrease the purity of these ring resonator sources. \cite{scammell_indistinguishable_2014}
-	\item 
 \end{itemize}
